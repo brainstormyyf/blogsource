@@ -1,0 +1,39 @@
+{
+  "author": "Razon Yang <razonyang@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/hbstack/site/issues"
+  },
+  "devDependencies": {
+    "decap-server": "^3.0.1",
+    "glob": "^10.3.10",
+    "prettier": "^3.0.0",
+    "prettier-plugin-go-template": "^0.0.15"
+  },
+  "homepage": "https://github.com/hbstack/site",
+  "license": "MIT",
+  "name": "HB Site",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbstack/site.git"
+  },
+  "scripts": {
+    "dev": "hugo server -p 7070 --gc --disableFastRender --buildDrafts --enableGitInfo",
+    "prod": "npm run clean && hugo server -e production --minify --gc --renderToDisk --disableFastRender --enableGitInfo -b http://localhost:7080 -p 7080",
+    "docker": "docker run -v $PWD:/src -p 7070:7070 -p 7071:7071 -p 7072:7072 hugomods/hugo:exts hugo server --bind 0.0.0.0 -p 7070",
+    "docker-prod": "docker run -v $PWD:/src -p 7080:7080 -p 7081:7081 -p 7082:7082 hugomods/hugo:exts hugo server --bind 0.0.0.0 -e production --minify --gc --renderToDisk --disableFastRender --enableGitInfo -b http://localhost:7080 -p 7080",
+    "build": "hugo --gc --minify --enableGitInfo",
+    "clean": "rm hugo_stats.json && rm -rf public/",
+    "clean-build": "npm run clean && npm run build",
+    "update": "hugo mod get -u && hugo mod tidy",
+    "translate": "node ./scripts/translate.js",
+    "decap-server": "npx decap-server"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefix": "^1.0.1",
+    "autoprefixer": "^10.4.13",
+    "postcss-cli": "^10.1.0",
+    "postcss-purgecss": "^5.0.0",
+    "rtlcss": "^4.0.0"
+  }
+}

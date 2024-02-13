@@ -1,0 +1,191 @@
+main:
+  - name: 文档
+    identifier: docs
+    weight: 1
+    params:
+      icon:
+        vendor: bs
+        name: book
+
+  - name: 支持
+    identifier: support
+    weight: 100
+    url: https://github.com/hbstack/
+    params:
+      header: HB 支持社区。
+      icon:
+        vendor: font-awesome-solid
+        name: headset
+
+  - name: Mastodon
+    parent: support
+    url: https://techhub.social/@hbstack
+    weight: 100
+    params:
+      description: 关注我们以获取最近更新。
+      icon:
+        vendor: simple
+        name: mastodon
+
+  - name: GitHub
+    parent: support
+    url: https://github.com/hbstack/
+    weight: 1
+    params:
+      icon:
+        vendor: fab
+        name: github
+      description: 代码仓库。
+
+  - name: 讨论
+    parent: support
+    url: https://github.com/orgs/hbstack/discussions/
+    weight: 2
+    params:
+      icon:
+        vendor: font-awesome-regular
+        name: comments
+        color: green
+      description: 提问题和分享你的想法。
+
+  - name: Bug 反馈
+    parent: support
+    url: https://github.com/orgs/hbstack/discussions/new?category=issues-and-bugs
+    weight: 3
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: bug
+        color: red
+      description: 向我们反馈一个错误或问题。
+
+  - name: 功能提议
+    parent: support
+    url: https://github.com/orgs/hbstack/discussions/new?category=ideas
+    weight: 4
+    params:
+      icon:
+        vendor: font-awesome-regular
+        name: lightbulb
+        color: orange
+      description: 建议新的或需要改进的功能。
+
+  - name: 状态
+    parent: support
+    url: https://status.hbstack.dev/
+    params:
+      icon:
+        vendor: bs
+        name: cloud-check
+        color: green
+      description: HB 框架服务状态。
+
+footer:
+  - name: 项目
+    identifier: projects
+    weight: 10
+    params:
+      icon:
+        vendor: bootstrap
+        name: boxes
+        color: skyblue
+  - name: HugoPress
+    parent: projects
+    weight: 11
+    url: https://hugomods.com/en/docs/hugopress/
+    params:
+      icon:
+        vendor: simple-icons
+        name: hugo
+        color: '#FF4088'
+  - name: Hugo Docker 镜像
+    parent: projects
+    weight: 12
+    url: https://hugomods.com/en/docs/docker/
+    params:
+      icon:
+        vendor: simple-icons
+        name: docker
+        color: '#2496ED'
+  - name: 图标
+    parent: projects
+    weight: 13
+    url: https://hugomods.com/zh-hans/icons/
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: icons
+        color: '#F76119'
+  - name: SEO
+    parent: projects
+    weight: 14
+    url: https://github.com/hugomods/seo/
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: magnifying-glass
+        color: '#87CEEB'
+  - name: 搜索
+    parent: projects
+    weight: 15
+    url: https://hugomods.com/en/docs/search/
+    params:
+      icon:
+        vendor: bootstrap
+        name: search
+        color: '#712cf9'
+  - name: Bootstrap 短代码
+    parent: projects
+    weight: 16
+    url: https://hugomods.com/en/bootstrap/
+    params:
+      icon:
+        vendor: bootstrap
+        name: code-square
+        color: '#712cf9'
+
+  - name: 支持
+    identifier: support
+    weight: 40
+    url: https://github.com/hbstack/
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: headset
+        color: '#0A5DB9'
+  - name: GitHub
+    parent: support
+    url: https://github.com/hbstack/
+    weight: 41
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: github
+  - name: 讨论
+    parent: support
+    url: https://github.com/orgs/hbstack/discussions/
+    weight: 42
+    params:
+      icon:
+        vendor: far
+        name: comments
+        color: green
+  - name: Bug 反馈
+    parent: support
+    url: https://github.com/orgs/hbstack/discussions/new?category=issues-and-bugs
+    weight: 43
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: bug
+        color: red
+
+  - name: 功能提议
+    parent: support
+    url: https://github.com/orgs/hbstack/discussions/new?category=ideas
+    weight: 44
+    params:
+      icon:
+        vendor: font-awesome-regular
+        name: lightbulb
+        color: orange

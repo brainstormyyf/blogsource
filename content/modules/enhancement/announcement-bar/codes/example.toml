@@ -1,0 +1,13 @@
+[plain]
+title = "A **plain** text announcement."
+weight = 1
+
+[internal]
+title = "Internal announcement."
+url = "modules/enhancement/announcement-bar"
+weight = 2
+
+[external]
+title = "The announcement linked to external site."
+url = "https://hugomods.com/"
+weight = 3

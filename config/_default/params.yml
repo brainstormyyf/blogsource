@@ -1,0 +1,272 @@
+description: >
+  Fast, responsive, flexible, modular, FOSS and feature-rich Hugo Bootstrap Framework.
+
+aos:
+  js_url: /js/aos.min.js
+  css_url: /css/aos.min.css
+
+hb:
+  heading_sign:
+    symbol: '¶'
+  google_fonts:
+    families:
+      - name: Poppins
+      # - name: Noto Serif Simplified Chinese
+      - name: Agbalumo
+  styles:
+    primary: "#7952b3"
+  # debug: true
+  logo: images/logo.svg
+  announcement_bar:
+    interval: 2500
+  background_image:
+    brightness: 20
+  contact:
+    endpoint: https://formspree.io/f/mnqyewwz
+    recaptcha_sitekey: 6Lf12rImAAAAAB0v75Amp-4Y1QDTFM9Oq9d6me8w
+  header:
+    breakpoint: lg
+    sticky: true
+    full_width: true
+    logo: false
+    # theme: 'classic'
+    # logo_bg: '#7952b3'
+    # menus_alignment: 'end'
+    brand: 'HB'
+    socials:
+      github: hbstack
+      githubsponsors: https://github.com/sponsors/razonyang
+      paypal: razonyang
+      # twitter: razonyang
+      mastodon: https://techhub.social/@hbstack
+      rss: true
+    news:
+      sections:
+        - news
+        - releases
+    git_org:
+      service: github
+      name: hbstack
+    # git_repo:
+    #   service: github
+    #   owner: hbstack
+    #   name: hb
+  blog:
+    post_thumbnail_default: /images/thumbnail.jpg
+    social_share_buttons:
+      alignment: center
+      media:
+        - twitter
+        - facebook
+        - linkedin
+        - sinaweibo
+    home:
+      main_sections:
+        - blog
+        - docs
+        - news
+        - modules
+    paginate: 30
+    giscus:
+      repo: hbstack/site
+      repo_id: R_kgDOJLvAsw
+      category: General
+      category_id: DIC_kwDOJLvAs84CVBSG
+      mapping: og:title
+    utterances:
+      repo: hbstack/site
+    twikoo:
+      env_id: https://twikoo.hugomods.com/
+    sidebar:
+      posts:
+        style: pills
+      taxonomies:
+        style: pills
+      profile:
+        company: "[HB STACK](https://hbstack.dev/)"
+        location: Internet
+        socials:
+          github: hbstack
+          paypal: razonyang
+          githubsponsors: https://github.com/sponsors/razonyang
+          mastodon: https://techhub.social/@hbstack
+          rss: true
+  docs:
+    social_share_buttons:
+      alignment: center
+      media:
+        - twitter
+        - facebook
+        - linkedin
+        - sinaweibo
+    giscus:
+      repo: hbstack/site
+      repo_id: R_kgDOJLvAsw
+      category: General
+      category_id: DIC_kwDOJLvAs84CVBSG
+      mapping: og:title
+    utterances:
+      repo: hbstack/site
+    twikoo:
+      env_id: https://twikoo.hugomods.com/
+  footer:
+    powered_by: true
+    # site_title: HB Framework
+    socials:
+      github: hbstack
+      githubsponsors: https://github.com/sponsors/razonyang
+      paypal: razonyang
+      twitter: razonyang
+      mastodon: razonyang
+      rss: true
+  content_panel:
+    repo:
+      service: github
+      repo: hbstack/site
+      branch: main
+      # subpath: exampleSite
+  thanks:
+    socials:
+      paypal: razonyang
+      githubsponsors: https://github.com/sponsors/razonyang
+pwa:
+  icon_path: images/logo.png
+  icon_sizes: [192, 512]
+  offline_image: images/pwa/offline.svg
+  manifest:
+    background_color: '#7952b3'
+    theme_color: '#7952b3'
+    short_name: 'HB'
+
+seo:
+  favicons:
+    icon: images/logo.png
+    svg_icon: images/logo.svg
+    mask_icon: images/logo.svg
+    mask_icon_color: '#7952b3'
+    sizes:
+      - size: 180x180
+        rel: apple-touch-icon
+
+code_block_panel:
+  max_lines: 8
+
+search:
+  min_match_char_length: 1
+  index_all_pages: false
+  index_content: true
+  ignore_location: true
+
+docsearch:
+  app_id: ZUM0MDPYWM
+  api_key: 335e389d4a9a43c1774deb2e85ff3494
+  index_name: hbstack
+
+hugopress:
+  modules:
+    hb-custom:
+      hooks:
+        body-begin:
+          cacheable: true
+        hb-footer-end:
+          cacheable: true
+        hb-docs-doc-toc-begin:
+          cacheable: true
+        hb-docs-doc-toc-end:
+          cacheable: true
+        hb-blog-post-toc-begin:
+          cacheable: true
+        hb-blog-post-toc-end:
+          cacheable: true
+    # search:
+    #   disabled: true
+    # hb-header-search:
+    #   disabled: true
+    docsearch:
+      disabled: true
+    hb-header-docsearch:
+      disabled: true
+
+decap_cms:
+  # _js_url: http://localhost:8080/dist/decap-cms.js
+  _preview_templates:
+    - name: hb/blog-post
+      collections:
+        - blog
+        - news
+    - name: hb/docs-doc
+      collections:
+        - documents
+        - modules
+  publish_mode: editorial_workflow
+  logo_url: images/logo.png
+  i18n:
+    structure: multiple_files
+  collections:
+    news:
+      _weight: 1
+      _extends:
+        - nested
+        - meta_path
+        - hb_blog_posts
+      name: news
+      label: News
+      label_singular: News
+      folder: content/news
+      i18n: true
+    blog:
+      _weight: 2
+      _extends:
+        - nested
+        - meta_path
+        - hb_blog_posts
+      folder: content/blog
+      i18n: true
+      preview_path: /blog/{{year}}/{{month}}/{{title}}
+    archives:
+      _extends:
+        - nested
+        - meta_path
+        - hb_blog_archives
+      folder: content/archives
+      i18n: true
+    docs:
+      _weight: 3
+      _extends:
+        - nested
+        - meta_path
+        - hb_docs_doc
+      i18n: true
+      folder: content/docs
+    modules:
+      _weight: 4
+      _extends:
+        - nested
+        - meta_path
+        - hb_docs_doc
+      i18n: true
+      folder: content/modules
+      name: modules
+      label: Modules
+      label_singular: Module
+    sites:
+      editor:
+        preview: false
+      identifier_field: name
+      summary: "{{title}} - {{domain}}"
+      format: toml
+      label: Sites
+      label_singular: Site
+      description: HB Framework showcases.
+      name: sites
+      create: true
+      folder: "data/sites"
+      slug: "{{fields.domain}}"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Domain, name: domain, widget: string}
+        - {label: Date, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false}
+        - {label: Pinned, name: pinned, widget: "hidden", default: false}
+        - {label: Logo, name: logo, widget: string, required: false, hint: "Logo URL."}
+        - {label: Logo width, name: logo_width, widget: number, required: false, value_type: int, hint: "Logo intrinsic width, required when logo is set."}
+        - {label: Logo height, name: logo_height, widget: number, required: false, value_type: int, hint: "Logo intrinsic height, required when logo is set."}

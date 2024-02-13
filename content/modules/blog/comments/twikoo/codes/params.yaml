@@ -1,0 +1,5 @@
+hb:
+  blog:
+    twikoo:
+      env_id: https://twikoo.hugomods.com/
+      js_url: https://cdn.staticfile.org/twikoo/1.6.16/twikoo.all.min.js

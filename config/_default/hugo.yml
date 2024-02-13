@@ -1,0 +1,59 @@
+baseURL: https://hbstack.dev/
+title: HB Framework
+copyright: "Copyright © 2022-{year} [HB Framework](https://hbstack.dev/). All Rights Reserved."
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+# disqusShortname: hbstack
+enableRobotsTXT: true
+enableEmoji: true
+
+permalinks:
+  blog: /blog/:year/:month/:title
+  news: /news/:year/:month/:title
+
+outputs:
+  home:
+    - HTML
+    - Offline
+    - RSS
+    - SearchIndex
+    - WebAppManifest
+    - DecapCMSConfig
+
+taxonomies:
+  authors: authors
+  tags: tags
+  categories: categories
+  series: series
+
+build:
+  writeStats: true
+
+related:
+  threshold: 20
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    parser:
+      attribute:
+        block: true
+        title: true
+  highlight:
+    noClasses: false
+    lineNos: true
+    lineNumbersInTable: false
+  tableOfContents:
+    endLevel: 6
+    startLevel: 2
+
+security:
+  funcs:
+    getenv:
+      - '^HUGO_'
+      - '^CI$'
+      - '^GITHUB_TOKEN$'
+
+# ignoreErrors:
+#   - error-remote-getjson

@@ -1,0 +1,36 @@
+[endpoint]
+name = 'endpoint'
+type = 'string'
+required = true
+description = 'The endpoint provided by form backends.'
+
+[extra_fields]
+name = 'extra_fields'
+type = 'array'
+description = 'An array of extra fields.'
+
+[extra_fields_name]
+name = 'extra_fields.name'
+type = 'string'
+description = 'The name of extra field.'
+
+[extra_fields_type]
+name = 'extra_fields.type'
+type = 'string'
+description = 'The type of extra field.'
+
+[extra_fields_vaule]
+name = 'extra_fields.vaule'
+type = 'string'
+description = 'The vaule of extra field.'
+
+[file]
+name = 'file'
+type = 'boolean'
+default = false
+description = 'Whether to allow uploading file.'
+
+[recaptcha_sitekey]
+name = 'recaptcha_sitekey'
+type = 'string'
+description = 'The reCaptcha v2 site key.'

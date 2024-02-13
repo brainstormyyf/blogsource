@@ -1,0 +1,25 @@
+pwa:
+  debug: false
+  caches:
+    font:
+      strategy: network-first
+    image:
+      strategy: network-first
+    script:
+      strategy: network-first
+    style:
+      strategy: network-first
+
+hugopress:
+  modules:
+    pwa:
+      disable: true
+
+# hb:
+  # anti_adblock:
+    # remind_interval: 0.0025 # 9s
+
+decap_cms:
+  backend:
+    name: git-gateway
+  local_backend: true

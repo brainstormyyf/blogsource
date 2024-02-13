@@ -1,0 +1,9 @@
+{{- $params := .Get 0 | printf "data/%s" | .Page.Resources.GetMatch }}
+{{- with $params }}
+| Parameter | Type | Required | Default | Description |
+| --------- | :--: | :-----: | :------: | ----------- |
+{{- range $params | transform.Unmarshal }}
+  {{- $required := cond (default false .required) "✔️" "" }}
+| `{{ .name }}` | `{{ default "string" .type }}` | {{ $required }} | {{ if isset . "default" }}`{{ .default }}`{{ end }} | {{ with .description }}{{ . }}{{ end }} |
+{{- end }}
+{{- end }}
