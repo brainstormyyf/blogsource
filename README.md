@@ -1,3 +1,3 @@
 The source of https://brainstormyyf.github.io/
 
-welcom!
+welcom to my blog!
