@@ -28,8 +28,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        # with:
-        #   submodules: recursive
+        with:
+          submodules: true #recursive
+          fetch-depth: 0
 
       # - name: Setup Pages
       #   id: pages
@@ -60,24 +61,33 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: ./public
+      # - name: Upload artifact
+      #   uses: actions/upload-pages-artifact@v1
+      #   with:
+      #     path: ./public
 
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
+      - name: Deploy Web
         uses: peaceiris/actions-gh-pages@v3
         with:
           PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
           EXTERNAL_REPOSITORY: brainstormyyf/brainstormyyf.github.io
-          PUBLISH_BRANCH: main
+          PUBLISH_BRANCH: maIN
           PUBLISH_DIR: ./public
           commit_message: ${{ github.event.head_commit.message }}
+
+  # deploy:
+  #   environment:
+  #     name: github-pages
+  #     url: ${{ steps.deployment.outputs.page_url }}
+  #   runs-on: ubuntu-latest
+  #   needs: build
+  #   steps:
+  #     - name: Deploy to GitHub Pages
+  #       id: deployment
+  #       uses: peaceiris/actions-gh-pages@v3
+  #       with:
+  #         PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+  #         EXTERNAL_REPOSITORY: brainstormyyf/brainstormyyf.github.io
+  #         PUBLISH_BRANCH: main
+  #         PUBLISH_DIR: ./public
+  #         commit_message: ${{ github.event.head_commit.message }}
