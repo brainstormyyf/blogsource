@@ -14,10 +14,10 @@ require (
 	github.com/hbstack/bigger-picture v0.10.1 // indirect
 	github.com/hbstack/blog v0.24.3 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.22 // indirect
-	github.com/hbstack/blog/modules/content-panel v0.1.21 // indirect
+
 	github.com/hbstack/blog/modules/decap-cms v0.2.1 // indirect
 	github.com/hbstack/blog/modules/featured-image v0.2.21 // indirect
-	github.com/hbstack/blog/modules/giscus v0.1.23 // indirect
+	
 	github.com/hbstack/blog/modules/heading-sign v0.1.23 // indirect
 	github.com/hbstack/blog/modules/post-nav v0.3.6 // indirect
 	github.com/hbstack/blog/modules/related-posts v0.2.5 // indirect
@@ -31,23 +31,23 @@ require (
 	github.com/hbstack/carousel v0.2.4 // indirect
 	github.com/hbstack/code-block-panel v0.1.1 // indirect
 	github.com/hbstack/contact v0.2.0 // indirect
-	github.com/hbstack/content-panel v0.7.2 // indirect
+
 	github.com/hbstack/decap-cms v0.1.0 // indirect
 	github.com/hbstack/docs v0.11.6 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.9 // indirect
-	github.com/hbstack/docs/modules/content-panel v0.1.8 // indirect
+
 	github.com/hbstack/docs/modules/decap-cms v0.2.1 // indirect
 	github.com/hbstack/docs/modules/doc-nav v0.3.4 // indirect
 	github.com/hbstack/docs/modules/featured-image v0.2.8 // indirect
-	github.com/hbstack/docs/modules/giscus v0.1.10 // indirect
+
 	github.com/hbstack/docs/modules/heading-sign v0.1.9 // indirect
 	github.com/hbstack/docs/modules/social-share-buttons v0.1.0 // indirect
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.7 // indirect
 	github.com/hbstack/featured-image v0.2.0 // indirect
-	github.com/hbstack/footer v0.2.10 // indirect
-	github.com/hbstack/footer/modules/socials v0.2.5 // indirect
+
+
 	github.com/hbstack/form v0.1.1 // indirect
-	github.com/hbstack/giscus v0.1.1 // indirect
+
 	github.com/hbstack/google-fonts v0.1.1 // indirect
 	github.com/hbstack/hb v0.11.0 // indirect
 	github.com/hbstack/header v0.12.7 // indirect
@@ -92,7 +92,7 @@ require (
 	github.com/hugomods/docsearch v0.1.0 // indirect
 	github.com/hugomods/font-awesome v6.4.2+incompatible // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
-	github.com/hugomods/giscus v0.1.1 // indirect
+
 	github.com/hugomods/google-adsense v0.1.0 // indirect
 	github.com/hugomods/google-analytics v0.2.0 // indirect
 	github.com/hugomods/gravatar v0.2.0 // indirect
@@ -102,6 +102,7 @@ require (
 	github.com/hugomods/icons/vendors/bootstrap v0.5.3 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.1 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.28 // indirect
+	github.com/hugomods/icons/vendors/tabler v0.9.0 //indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
 	github.com/hugomods/images v0.9.0 // indirect
 	github.com/hugomods/katex v0.3.0 // indirect

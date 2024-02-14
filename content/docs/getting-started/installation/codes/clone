@@ -1,7 +1,0 @@
-```sh
-git clone --depth 1 https://github.com/hbstack/theme blog
-```
-
-```sh
-cd blog
-```

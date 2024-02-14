@@ -1,7 +1,12 @@
-baseURL: https://hbstack.dev/
-title: HB Framework
-copyright: "Copyright © 2022-{year} [HB Framework](https://hbstack.dev/). All Rights Reserved."
-defaultContentLanguage: en
+zh-ch:
+  baseURL: https://brainstormyyf.github.io/
+
+relativeURLs: true
+uglyURLs: true
+
+title: Yifeng's Blog
+# copyright: "Copyright © 2022-{year} [HB Framework](https://hbstack.dev/). All Rights Reserved."
+defaultContentLanguage: zh-ch
 defaultContentLanguageInSubdir: false
 # disqusShortname: hbstack
 enableRobotsTXT: true
@@ -15,15 +20,15 @@ outputs:
   home:
     - HTML
     - Offline
-    - RSS
+    # - RSS
     - SearchIndex
     - WebAppManifest
     - DecapCMSConfig
 
 taxonomies:
-  authors: authors
+  # authors: authors
   tags: tags
-  categories: categories
+  # categories: categories
   series: series
 
 build:
@@ -51,9 +56,8 @@ markup:
 security:
   funcs:
     getenv:
-      - '^HUGO_'
-      - '^CI$'
-      - '^GITHUB_TOKEN$'
-
+      - "^HUGO_"
+      - "^CI$"
+      - "^GITHUB_TOKEN$"
 # ignoreErrors:
 #   - error-remote-getjson

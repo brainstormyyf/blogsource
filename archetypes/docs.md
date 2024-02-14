@@ -1,14 +1,22 @@
 ---
+type: docs
 title: "{{ replace .Name "-" " " | title }}"
 linkTitle: "{{ replace .Name "-" " " | title }}"
-description: "{{ replace .Name "-" " " | title }}"
+description: ""
 date: {{ .Date }}
-draft: true
+draft: false
+nav_weight: 
+nav_icon:
+  vendor: bootstrap
+  name: toggles
+  color: '#e24d0e'
 series:
   - Docs
 categories:
 tags:
 images:
 authors:
-  - HB
+  - YYF
 ---
+
+<!--more-->

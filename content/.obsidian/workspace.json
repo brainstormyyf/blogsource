@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "92d44004e24a1523",
+    "type": "split",
+    "children": [
+      {
+        "id": "89071f096b60bdc8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7cb098fe67d17c38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "10ea151f1eca1599",
+    "type": "split",
+    "children": [
+      {
+        "id": "8fafd9c853635fb8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3fa6024f8bb26fb4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3529af5ff6976da8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d7c6168221e2340d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "34fbf74ec12e421c",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad29293b641caebc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "038f7d801eacd8e1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "813cf67805d45797",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5364e04c91586780",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "759090ae8aee5b82",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "7cb098fe67d17c38",
+  "lastOpenFiles": [
+    "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
+    "环境配置/python/attachments/d3d89d55e1bab3d24ef75cf88e771a21_MD5.webp",
+    "环境配置/python/attachments/4f6cabe7a49cd131ebc0c534b5e7e8a0_MD5.webp",
+    "环境配置/python/attachments/46354916cca521c8c1683c314f037fdb_MD5.webp",
+    "环境配置/python/attachments/dbe41b52786e24cc2f05f5e9b4600756_MD5.webp",
+    "环境配置/python/pip换源.md",
+    "环境配置/python/attachments/dbe41b52786e24cc2f05f5e9b4600756_MD5.webp",
+    "环境配置/python/attachments",
+    "环境配置/python/attachments/xs584.png",
+    "环境配置/_index.md"
+  ]
+}

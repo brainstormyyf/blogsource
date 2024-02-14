@@ -1,6 +1,0 @@
-```sh
-$ tree data/announcements
-├── en.toml
-├── zh-hans.toml
-└── zh-hant.toml
-```

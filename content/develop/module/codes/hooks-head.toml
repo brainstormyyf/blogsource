@@ -1,5 +1,0 @@
-[params.hugopress.modules.hb-vendor-hello.hooks.head-begin]
-cacheable = true
-
-[params.hugopress.modules.hb-vendor-hello.hooks.head-end]
-cacheable = true

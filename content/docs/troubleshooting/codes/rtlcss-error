@@ -1,3 +1,0 @@
-```cobol
-POSTCSS: failed to transform "hb/scss/index.rtl.css" (text/css): Plugin Error: Cannot find package 'rtlcss' imported from /usr/lib/node_modules/postcss-cli/index.js'
-```

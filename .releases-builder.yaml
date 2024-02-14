@@ -1,7 +1,7 @@
 languages:
-  - code: en
-  - code: zh-hans
-  - code: zh-hant
+  # - code: en
+  - code: zh-ch
+  # - code: zh-hant
 contentDir: content/releases
 repositories:
   - github.com/hbstack/announcement-bar
@@ -17,15 +17,15 @@ repositories:
   - github.com/hbstack/cloudflare-rocket-loader
   - github.com/hbstack/code-block-panel
   - github.com/hbstack/contact
-  - github.com/hbstack/content-panel
+  # - github.com/hbstack/content-panel
   - github.com/hbstack/disqus
   - github.com/hbstack/decap-cms
   - github.com/hbstack/docs
   - github.com/hbstack/featured-image
-  - github.com/hbstack/footer
+  # - github.com/hbstack/footer
   - github.com/hbstack/form
   - github.com/hbstack/gallery
-  - github.com/hbstack/giscus
+  # - github.com/hbstack/giscus
   - github.com/hbstack/github-releases
   - github.com/hbstack/google-fonts
   - github.com/hbstack/hb
@@ -53,4 +53,4 @@ repositories:
   - github.com/hbstack/theme-cards
   - github.com/hbstack/theme-start
   - github.com/hbstack/toc-scrollspy
-  - github.com/hbstack/utterances
+  # - github.com/hbstack/utterances

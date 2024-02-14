@@ -1,8 +1,0 @@
-```sh
-hugo server \
-  -e production \
-  --renderToDisk \
-  --disableFastRender \
-  -p 1313 \
-  -b http://localhost:1313
-```

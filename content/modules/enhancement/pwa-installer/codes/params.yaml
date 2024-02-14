@@ -1,4 +1,0 @@
-hb:
-  pwa_installer:
-    delay: 5
-    dismissed_period: 604800

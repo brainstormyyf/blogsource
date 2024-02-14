@@ -11,14 +11,14 @@
 - name: hbstack/cloudflare-rocket-loader
 - name: hbstack/code-block-panel
 - name: hbstack/contact
-- name: hbstack/content-panel
+# - name: hbstack/content-panel
 - name: hbstack/disqus
 - name: hbstack/docs
 - name: hbstack/featured-image
 - name: hbstack/footer
 - name: hbstack/form
 - name: hbstack/gallery
-- name: hbstack/giscus
+# - name: hbstack/giscus
 - name: hbstack/github-releases
 - name: hbstack/google-fonts
 - name: hbstack/hb
@@ -45,4 +45,4 @@
 - name: hbstack/theme-cards
 - name: hbstack/theme-start
 - name: hbstack/toc-scrollspy
-- name: hbstack/utterances
+# - name: hbstack/utterances

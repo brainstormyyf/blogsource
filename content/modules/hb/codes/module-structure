@@ -1,9 +1,0 @@
-```sh
-tree assets/hb/modules/vendor-module
-├── js
-│   └── index.ts
-├── purgecss.config.toml
-└── scss
-    ├── index.scss
-    └── variables.tmpl.scss
-```

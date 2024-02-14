@@ -25,10 +25,12 @@ serviceAccount:
 
 podAnnotations: {}
 
-podSecurityContext: {}
+podSecurityContext:
+  {}
   # fsGroup: 2000
 
-securityContext: {}
+securityContext:
+  {}
   # capabilities:
   #   drop:
   #   - ALL
@@ -40,8 +42,7 @@ service:
   type: ClusterIP
   ports:
     - 8080
-    - 8081
-    - 8082
+    # - 8081
 
 ingress:
   enabled: true
@@ -55,26 +56,21 @@ ingress:
           pathType: ImplementationSpecific
       backend:
         port: 8080
-    - host: zh-hans.hbstack.dev
+    - host: zh-ch.hbstack.dev
       paths:
         - path: /
           pathType: ImplementationSpecific
       backend:
         port: 8081
-    - host: zh-hant.hbstack.dev
-      paths:
-        - path: /
-          pathType: ImplementationSpecific
-      backend:
-        port: 8082
   tls:
     - secretName: hbstack-dev-tls
       hosts:
         - hbstack.dev
-        - zh-hans.hbstack.dev
+        - zh-ch.hbstack.dev
         - zh-hant.hbstack.dev
 
-resources: {}
+resources:
+  {}
   # We usually recommend not to specify default resources and to leave this as a conscious
   # choice for the user. This also increases chances charts run on environments with little
   # resources, such as Minikube. If you do want to specify resources, uncomment the following

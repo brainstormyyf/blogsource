@@ -1,5 +1,0 @@
-```go-html-template
-{{- return dict
-  "data-hello" "body"
--}}
-```

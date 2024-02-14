@@ -1,4 +1,0 @@
-[params.hugopress.modules.hb-vendor-hello.attributes.document]
-cacheable = true
-[params.hugopress.modules.hb-vendor-hello.attributes.body]
-cacheable = true

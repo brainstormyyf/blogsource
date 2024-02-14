@@ -1,9 +1,0 @@
-```sh
-npm i rtlcss
-```
-
-Or
-
-```sh
-sudo npm i -g rtlcss
-```

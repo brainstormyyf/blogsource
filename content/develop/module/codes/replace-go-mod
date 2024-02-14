@@ -1,3 +1,0 @@
-```go
-replace example.com/vendor/hello => /path/to/hello
-```

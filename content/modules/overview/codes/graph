@@ -1,7 +1,0 @@
-```sh
-hugo mod graph
-```
-
-```sh
-hugo mod graph | grep blog
-```
