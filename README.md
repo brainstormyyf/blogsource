@@ -1,3 +1,1 @@
-# HB Framework Docs Site
-
-The source of https://hbstack.dev/.
+The source of https://brainstormyyf.github.io/
