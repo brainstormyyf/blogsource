@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
+                "file": "环境配置/python/pytorch安装教程.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
+                "file": "环境配置/python/pytorch安装教程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
+                "file": "环境配置/python/pytorch安装教程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md"
+                "file": "环境配置/python/pytorch安装教程.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,17 +146,24 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7cb098fe67d17c38",
+  "active": "3fa6024f8bb26fb4",
   "lastOpenFiles": [
     "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
-    "环境配置/python/attachments/d3d89d55e1bab3d24ef75cf88e771a21_MD5.webp",
-    "环境配置/python/attachments/4f6cabe7a49cd131ebc0c534b5e7e8a0_MD5.webp",
-    "环境配置/python/attachments/46354916cca521c8c1683c314f037fdb_MD5.webp",
-    "环境配置/python/attachments/dbe41b52786e24cc2f05f5e9b4600756_MD5.webp",
+    "环境配置/python/pytorch安装教程.md",
     "环境配置/python/pip换源.md",
-    "环境配置/python/attachments/dbe41b52786e24cc2f05f5e9b4600756_MD5.webp",
+    "环境配置/python/pip设置代理.md",
+    "环境配置/python/attachments/w7nq1.webp",
+    "环境配置/python/attachments/me3vp.webp",
+    "环境配置/python/attachments/xmd5u.webp",
+    "环境配置/python/attachments/vkox4.webp",
+    "环境配置/python/attachments/s7z0h.webp",
+    "环境配置/python/attachments/qt9gz.webp",
+    "环境配置/python/attachments/axqyz.webp",
+    "环境配置/python/attachments/nv6rd.webp",
+    "环境配置/python/attachments/8wrnx.webp",
+    "环境配置/python/attachments/9sd6w.webp",
+    "环境配置/python/_index.md",
     "环境配置/python/attachments",
-    "环境配置/python/attachments/xs584.png",
     "环境配置/_index.md"
   ]
 }

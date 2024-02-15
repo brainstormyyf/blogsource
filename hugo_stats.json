@@ -201,6 +201,7 @@
       "hb-blog-post-taxonomy",
       "hb-blog-post-taxonomy-meta",
       "hb-blog-post-taxonomy-series",
+      "hb-blog-post-taxonomy-tag",
       "hb-blog-post-title",
       "hb-blog-post-title-link",
       "hb-blog-sidebar",
@@ -394,6 +395,7 @@
       "taxonomy-term",
       "taxonomy-term-count",
       "taxonomy-term-series",
+      "taxonomy-term-tags",
       "taxonomy-term-title",
       "text-bg-secondary",
       "text-body",
@@ -422,9 +424,16 @@
       "w-100"
     ],
     "ids": [
+      "1anaconda安装",
       "1临时换源",
+      "1先检查自己的电脑所支持的cuda版本是多少",
+      "2cuda与cudnn安装",
+      "2官网下载相对应的cuda",
       "2永久换源",
+      "3gpu版pytorch安装",
+      "3安装相对应版本的cudnn",
       "3换回默认源",
+      "4cpu版pytorch安装",
       "TableOfContents",
       "center笔记专栏center",
       "center随笔杂谈center",
@@ -442,17 +451,22 @@
       "recent-posts-tab",
       "taxonomy-series-tab",
       "taxonomy-series-tab-pane",
+      "taxonomy-tags-tab",
+      "taxonomy-tags-tab-pane",
       "一创建anaconda虚拟环境",
       "三检查已安装的包",
+      "临时设置重连后失效",
       "二在虚拟环境中安装第三方包",
       "五删除虚拟环境",
+      "单次设置",
       "四关闭退出虚拟环境",
       "安装特定版本的包",
       "方法1使用conda安装",
       "方法2使用pip安装",
       "步骤1打开anaconda-prompt-终端",
       "步骤2创建虚拟环境",
-      "步骤3激活虚拟环境"
+      "步骤3激活虚拟环境",
+      "永久设置"
     ]
   }
 }
