@@ -1,15 +1,15 @@
 ---
 type: docs
-title: "使用Anaconda管理python虚拟环境与安装第三方包"
-linkTitle: "使用Anaconda管理python虚拟环境"
-# description: "使用Anaconda轻松管理python虚拟环境与安装第三方包"
+title: 使用Anaconda管理python虚拟环境与安装第三方包
+linkTitle: 使用Anaconda管理python虚拟环境
 date: 2024-02-14T01:39:18+08:00
 draft: false
-nav_weight: 2
+nav_weight: 3
 series:
   - 环境配置
 tags:
-images:
+  - python
+images: 
 authors:
   - YYF
 ---
