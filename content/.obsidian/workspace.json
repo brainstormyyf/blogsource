@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "89071f096b60bdc8",
+        "id": "4f32e7ca575af399",
         "type": "tabs",
         "children": [
           {
-            "id": "7cb098fe67d17c38",
+            "id": "ecbc9632cb85bf35",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -134,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 302.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,24 +146,30 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3fa6024f8bb26fb4",
+  "active": "ecbc9632cb85bf35",
   "lastOpenFiles": [
+    "环境配置/玩机技巧/油猴脚本.md",
+    "环境配置/玩机技巧/undefined.md",
+    "环境配置/玩机技巧/attachments/rjaoa.png",
+    "环境配置/玩机技巧/attachments/rjaoa.webp",
+    "环境配置/玩机技巧/attachments/t99uj.webp",
+    "环境配置/玩机技巧/attachments/y2r37.webp",
+    "环境配置/玩机技巧/attachments/a0gsz.webp",
+    "环境配置/玩机技巧/attachments/90bgt.webp",
+    "环境配置/玩机技巧/attachments/ucynr.webp",
+    "环境配置/玩机技巧/attachments/qlkkn.webp",
+    "环境配置/玩机技巧/attachments/g7mj3.webp",
+    "环境配置/玩机技巧/attachments/gpb5k.webp",
     "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
+    "环境配置/玩机技巧/attachments",
+    "环境配置/玩机技巧/_index.md",
+    "环境配置/python/_index.md",
+    "环境配置/未命名/未命名.md",
+    "环境配置/玩机技巧",
+    "环境配置/_index.md",
     "环境配置/python/pytorch安装教程.md",
     "环境配置/python/pip换源.md",
     "环境配置/python/pip设置代理.md",
-    "环境配置/python/attachments/w7nq1.webp",
-    "环境配置/python/attachments/me3vp.webp",
-    "环境配置/python/attachments/xmd5u.webp",
-    "环境配置/python/attachments/vkox4.webp",
-    "环境配置/python/attachments/s7z0h.webp",
-    "环境配置/python/attachments/qt9gz.webp",
-    "环境配置/python/attachments/axqyz.webp",
-    "环境配置/python/attachments/nv6rd.webp",
-    "环境配置/python/attachments/8wrnx.webp",
-    "环境配置/python/attachments/9sd6w.webp",
-    "环境配置/python/_index.md",
-    "环境配置/python/attachments",
-    "环境配置/_index.md"
+    "环境配置/python/attachments"
   ]
 }

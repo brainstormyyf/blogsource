@@ -3,5 +3,9 @@
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "./attachments",
   "useMarkdownLinks": false,
-  "autoConvertHtml": true
+  "autoConvertHtml": true,
+  "showLineNumber": false,
+  "foldIndent": false,
+  "useTab": false,
+  "readableLineLength": true
 }
