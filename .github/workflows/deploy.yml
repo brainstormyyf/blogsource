@@ -61,12 +61,10 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
-      - name: Create CNAME File
-        uses: actions/create-file@v1
-        with:
-          filename: CNAME
-          content: "yaoyifeng.top"
-          directory: ./public
+      - name: Copy CNAME file to public
+        run: |
+          cp CNAME ./public/CNAME
+          chmod 644 ./public/CNAME
 
       # - name: Upload artifact
       #   uses: actions/upload-pages-artifact@v1

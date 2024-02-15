@@ -14,8 +14,10 @@ images:
 authors:
   - YYF
 ---
-PyTorch环境搭建（windows版）
+
 <!--more-->
+
+PyTorch环境搭建（windows版）
 
 首先确定自己电脑上是否有nvidia的显卡（就是游戏显卡RTX3050，RTX3060......这些，必须是nvidia的显卡）
 
