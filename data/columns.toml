@@ -1,0 +1,101 @@
+[envconfig]
+weight = 1
+title = "环境配置"
+url = "笔记专栏/环境配置"
+description = "各种开发工具和开发环境的下载安装部署方法"
+[envconfig.icon]
+name = "toggles"
+color = "#7952b3"
+
+# nav_icon:
+#   vendor: bootstrap
+#   name: toggles
+#   color: '#e24d0e'
+
+[hugo]
+weight = 2
+title = "hugo博客"
+url = "笔记专栏/hugo博客"
+description = "基于HB框架搭建个人博客的教程"
+[hugo.icon]
+vendor = "simple"
+name = "Hugo"
+color = "green"
+
+[pytorch]
+weight = 3
+title = "pytorch代码解析"
+url = "笔记专栏/pytorch"
+description = "pytorch常用代码段与debug记录"
+[pytorch.icon]
+vendor = "simple"
+name = "PyTorch"
+color = "#E6492A"
+
+[AI]
+weight = 4
+title = "AI论文"
+url = "笔记专栏/AI论文"
+description = "李沐大神讲解经典AI论文精读笔记"
+[AI.icon]
+name = "rocket"
+color = "#DC3545"
+
+[deep-learning]
+weight = 5
+title = "深度学习"
+url = "笔记专栏/深度学习"
+description = "李宏毅深度学习课程笔记，基础概念讲解"
+[deep-learning.icon]
+vendor = "simple"
+name = "OpenAI"
+color = "blue"    
+        # "#05A3ED"
+
+
+[algorithm]
+weight = 6
+title = "算法刷题笔记"
+url = "笔记专栏/算法笔记"
+description = "算法刷题笔记，攻克校招、机试"
+[algorithm.icon]
+vendor = "simple-icons"
+name = "leetcode"
+color = "black"
+
+
+# [more]
+# weight = 100
+# title = "敬请期待"
+# # url = "更多"
+# description = "更多内容静待更新"
+# [more.icon]
+# name = "boxes"
+
+
+
+# [rtl]
+# weight = 10
+# title = "RTL"
+# description = ""
+# [rtl.icon]
+# name = "arrow-right-square"
+
+# [icons]
+# weight = 11
+# title = "图标"
+# url = "https://icons.hugomods.com/"
+# description = "Bootstrap, FontAwesome, Feather 等图标。"
+# [icons.icon]
+# vendor = "fas"
+# name = "icons"
+# color = "#dc3545"
+
+# [purgecss]
+# weight = 12
+# title = "PurgeCSS"
+# description = "移除站点中未曾使用的样式。"
+# [purgecss.icon]
+# vendor = "simple"
+# name = "purgecss"
+

@@ -66,7 +66,7 @@ hb:
       media:
         - sinaweibo
         - twitter
-        - facebook
+        # - facebook
         - linkedin
 
     home:
@@ -108,7 +108,7 @@ hb:
       media:
         - sinaweibo
         - twitter
-        - facebook
+        # - facebook
         - linkedin
 
     # giscus:

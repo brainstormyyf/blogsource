@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "环境配置/python/pytorch安装教程.md",
+                "file": "_index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "环境配置/python/pytorch安装教程.md",
+                "file": "_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "环境配置/python/pytorch安装教程.md",
+                "file": "_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "环境配置/python/pytorch安装教程.md"
+                "file": "_index.md"
               }
             }
           }
@@ -134,12 +134,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 315.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
@@ -148,7 +147,40 @@
   },
   "active": "ecbc9632cb85bf35",
   "lastOpenFiles": [
+    "简介/_index.md",
+    "简介",
+    "新建文件夹",
+    "项目",
+    "笔记专栏/算法笔记/_index.md",
+    "笔记专栏/算法笔记",
+    "笔记专栏/AI论文/_index.md",
+    "笔记专栏/AI论文",
+    "笔记专栏/hugo博客/_index.md",
+    "笔记专栏/hugo博客",
+    "笔记专栏/pytorch/_index.md",
+    "笔记专栏/pytorch",
+    "笔记专栏/深度学习/_index.md",
+    "笔记专栏/深度学习",
+    "笔记专栏/环境配置/玩机技巧/油猴脚本.md",
+    "笔记专栏/环境配置/玩机技巧/_index.md",
+    "笔记专栏/环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
+    "笔记专栏/环境配置/python/_index.md",
+    "笔记专栏/环境配置/python/pytorch安装教程.md",
+    "笔记专栏/环境配置/python/pip设置代理.md",
+    "笔记专栏/环境配置/python/pip换源.md",
+    "笔记专栏/环境配置/玩机技巧",
+    "笔记专栏/环境配置/_index.md",
+    "笔记专栏/环境配置/python",
+    "pytorch/_index.md",
+    "AI论文/_index.md",
+    "算法笔记/_index.md",
+    "深度学习/_index.md",
+    "hugo博客/_index.md",
+    "_index.md",
     "环境配置/玩机技巧/油猴脚本.md",
+    "环境配置/_index.md",
+    "虚拟试衣/_index.md",
+    "环境配置/python/pytorch安装教程.md",
     "环境配置/玩机技巧/undefined.md",
     "环境配置/玩机技巧/attachments/rjaoa.png",
     "环境配置/玩机技巧/attachments/rjaoa.webp",
@@ -160,16 +192,6 @@
     "环境配置/玩机技巧/attachments/qlkkn.webp",
     "环境配置/玩机技巧/attachments/g7mj3.webp",
     "环境配置/玩机技巧/attachments/gpb5k.webp",
-    "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
-    "环境配置/玩机技巧/attachments",
-    "环境配置/玩机技巧/_index.md",
-    "环境配置/python/_index.md",
-    "环境配置/未命名/未命名.md",
-    "环境配置/玩机技巧",
-    "环境配置/_index.md",
-    "环境配置/python/pytorch安装教程.md",
-    "环境配置/python/pip换源.md",
-    "环境配置/python/pip设置代理.md",
-    "环境配置/python/attachments"
+    "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md"
   ]
 }

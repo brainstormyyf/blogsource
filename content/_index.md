@@ -18,13 +18,18 @@ nav_icon:
 #         name: house
 ---
 
-## <center>笔记专栏</center>
+## <center>笔记专栏 </center>
 
 <br/>
 
-{{< bs/icon-grid  data="features" linkText="阅读更多" alignment="center" >}}
+{{< bs/icon-grid  data="columns" linkText="阅读更多" alignment="center" >}}
 
-## <center>随笔杂谈</center>
+## <center>项目介绍 </center>
+
+<br/>
+{{< bs/icon-grid  data="programs" linkText="阅读更多" alignment="center" >}}
+
+## <center>随笔杂谈 </center>
 
 <br/>
 

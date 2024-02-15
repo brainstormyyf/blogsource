@@ -1,0 +1,74 @@
+[tryon]
+weight = 1
+title = "虚拟试衣"
+url = "virtual-tryon"
+description = "第十三届中国大学生服务外包创新创业大赛作品"
+[tryon.icon]
+name = "rocket"
+color = "#DC3545"
+
+
+
+
+[Re-Identification]
+weight = 2
+title = "行人/轮船/车辆重识别"
+url = "重识别"
+description = "参与课题组项目《多模态的轮船重识别》，毕设论文《基于视觉语言模型的行人重识别》"
+[Re-Identification.icon]
+
+
+[Material_generation]
+weight = 3
+title = "材料生成模型"
+url = "材料生成"
+description = "发明专利《基于GAN和VAE的材料成分生成方法》"
+[Material_generation.icon]
+name = "circle-half"
+
+[search]
+weight = 4
+title = "视频人像分割"
+url = "视频人像分割"
+description = "一个快速且精准的本地化视频人像分割客户端。"
+[search.icon]
+name = "search"
+color = "#00008B"
+
+
+[classroom]
+weight = 4
+title = "智慧课堂"
+url = "smart classroom"
+description = "生产实习项目，中小学学生课堂行为分析系统"
+[classroom.icon]
+vendor = "simple-icons"
+name = "sass"
+color = "#C66394"
+
+
+[more]
+weight = 100
+title = "敬请期待"
+# url = "更多"
+description = "更多内容静待更新"
+[more.icon]
+name = "boxes"
+
+# [color]
+# weight = 8
+# title = "leetcode刷题笔记"
+# url = "leetcode刷题笔记"
+# description = "按照代码随想录章节顺序刷题，记录下的笔记"
+# [color.icon]
+# name = "circle-half"
+
+# [hugo-pipe]
+# weight = 9
+# title = "Hugo Pipes"
+# url = "Hugo Pipes"
+# description = "用强大的 Hugo Pipes 建设网站。"
+# [hugo-pipe.icon]
+# vendor = "font-awesome-solid"
+# name = "grip-lines-vertical"
+# color = "orange"
