@@ -1,20 +1,8 @@
 {
-  "author": "Razon Yang <razonyang@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/hbstack/site/issues"
-  },
   "devDependencies": {
-    "decap-server": "^3.0.1",
     "glob": "^10.3.10",
     "prettier": "^3.0.0",
     "prettier-plugin-go-template": "^0.0.15"
-  },
-  "homepage": "https://github.com/hbstack/site",
-  "license": "MIT",
-  "name": "HB Site",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hbstack/site.git"
   },
   "scripts": {
     "dev": "hugo server -p 7070 --gc --buildDrafts --enableGitInfo",

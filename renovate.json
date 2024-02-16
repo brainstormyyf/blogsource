@@ -3,15 +3,11 @@
   "extends": [
     "config:base"
   ],
-  "ignoreDeps": [
-    "github.com/hbstack/site/modules/common"
-  ],
   "packageRules": [
     {
       "matchManagers": ["gomod"],
       "matchDepTypes": ["indirect"],
-      "enabled": true,
-      "automerge": true
+      "enabled": true
     }
   ]
 }

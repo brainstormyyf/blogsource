@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index.md",
+                "file": "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_index.md",
+                "file": "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_index.md",
+                "file": "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_index.md"
+                "file": "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md"
               }
             }
           }
@@ -147,6 +147,11 @@
   },
   "active": "ecbc9632cb85bf35",
   "lastOpenFiles": [
+    "环境配置/python/pip设置代理.md",
+    "环境配置/python/pip换源.md",
+    "admin/_index.md",
+    "admin",
+    "_index.md",
     "简介/_index.md",
     "简介",
     "新建文件夹",
@@ -170,18 +175,14 @@
     "笔记专栏/环境配置/python/pip换源.md",
     "笔记专栏/环境配置/玩机技巧",
     "笔记专栏/环境配置/_index.md",
-    "笔记专栏/环境配置/python",
     "pytorch/_index.md",
     "AI论文/_index.md",
     "算法笔记/_index.md",
     "深度学习/_index.md",
     "hugo博客/_index.md",
-    "_index.md",
     "环境配置/玩机技巧/油猴脚本.md",
     "环境配置/_index.md",
     "虚拟试衣/_index.md",
-    "环境配置/python/pytorch安装教程.md",
-    "环境配置/玩机技巧/undefined.md",
     "环境配置/玩机技巧/attachments/rjaoa.png",
     "环境配置/玩机技巧/attachments/rjaoa.webp",
     "环境配置/玩机技巧/attachments/t99uj.webp",
@@ -191,7 +192,6 @@
     "环境配置/玩机技巧/attachments/ucynr.webp",
     "环境配置/玩机技巧/attachments/qlkkn.webp",
     "环境配置/玩机技巧/attachments/g7mj3.webp",
-    "环境配置/玩机技巧/attachments/gpb5k.webp",
-    "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md"
+    "环境配置/玩机技巧/attachments/gpb5k.webp"
   ]
 }

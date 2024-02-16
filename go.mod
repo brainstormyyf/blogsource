@@ -1,8 +1,6 @@
-module github.com/hbstack/site
+module github.com/hbstack/theme
 
 go 1.22
-
-replace github.com/hbstack/site/modules/common => ./modules/common
 
 require (
 	github.com/GoogleChrome/workbox v7.0.0+incompatible // indirect
@@ -12,12 +10,11 @@ require (
 	github.com/hbstack/back-to-top v0.2.0 // indirect
 	github.com/hbstack/base v0.4.1 // indirect
 	github.com/hbstack/bigger-picture v0.10.1 // indirect
-	github.com/hbstack/blog v0.24.3 // indirect
+	github.com/hbstack/blog v0.25.0 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.22 // indirect
-
-	github.com/hbstack/blog/modules/decap-cms v0.2.1 // indirect
+	github.com/hbstack/blog/modules/content-panel v0.1.21 // indirect
 	github.com/hbstack/blog/modules/featured-image v0.2.21 // indirect
-	
+	github.com/hbstack/blog/modules/giscus v0.1.23 // indirect
 	github.com/hbstack/blog/modules/heading-sign v0.1.23 // indirect
 	github.com/hbstack/blog/modules/post-nav v0.3.6 // indirect
 	github.com/hbstack/blog/modules/related-posts v0.2.5 // indirect
@@ -28,89 +25,83 @@ require (
 	github.com/hbstack/blog/modules/toc-scrollspy v0.1.20 // indirect
 	github.com/hbstack/bootstrap v0.2.1 // indirect
 	github.com/hbstack/breadcrumb v0.6.0 // indirect
+	github.com/hbstack/bs-tooltip v0.1.1 // indirect
 	github.com/hbstack/carousel v0.2.4 // indirect
 	github.com/hbstack/code-block-panel v0.1.1 // indirect
-	github.com/hbstack/contact v0.2.0 // indirect
-
-	github.com/hbstack/decap-cms v0.1.0 // indirect
+	github.com/hbstack/content-panel v0.7.2 // indirect
 	github.com/hbstack/docs v0.11.6 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.9 // indirect
-
-	github.com/hbstack/docs/modules/decap-cms v0.2.1 // indirect
+	github.com/hbstack/docs/modules/content-panel v0.1.8 // indirect
 	github.com/hbstack/docs/modules/doc-nav v0.3.4 // indirect
 	github.com/hbstack/docs/modules/featured-image v0.2.8 // indirect
-
+	github.com/hbstack/docs/modules/giscus v0.1.10 // indirect
 	github.com/hbstack/docs/modules/heading-sign v0.1.9 // indirect
 	github.com/hbstack/docs/modules/social-share-buttons v0.1.0 // indirect
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.7 // indirect
-	github.com/hbstack/featured-image v0.2.0 // indirect
-
-
-	github.com/hbstack/form v0.1.1 // indirect
-
+	github.com/hbstack/featured-image v0.2.1 // indirect
+	github.com/hbstack/footer v0.2.10 // indirect
+	github.com/hbstack/footer/modules/socials v0.2.5 // indirect
+	github.com/hbstack/gallery v0.11.0 // indirect
+	github.com/hbstack/gallery/modules/breadcrumb v0.1.0 // indirect
+	github.com/hbstack/giscus v0.1.1 // indirect
 	github.com/hbstack/google-fonts v0.1.1 // indirect
 	github.com/hbstack/hb v0.11.0 // indirect
-	github.com/hbstack/header v0.12.7 // indirect
+	github.com/hbstack/header v0.13.0 // indirect
 	github.com/hbstack/header/modules/banner v0.5.11 // indirect
 	github.com/hbstack/header/modules/docsearch v0.1.23 // indirect
-	github.com/hbstack/header/modules/git-org v0.2.2 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.24 // indirect
-	github.com/hbstack/header/modules/news v0.2.2 // indirect
 	github.com/hbstack/header/modules/search v0.1.35 // indirect
 	github.com/hbstack/header/modules/socials v0.1.28 // indirect
 	github.com/hbstack/header/modules/theme-toggle v0.4.4 // indirect
 	github.com/hbstack/header/themes/pills v0.2.18 // indirect
 	github.com/hbstack/heading-sign v0.2.0 // indirect
-	github.com/hbstack/iframe v0.1.1 // indirect
 	github.com/hbstack/mermaid v0.2.1 // indirect
 	github.com/hbstack/meta/recommended v0.2.10 // indirect
 	github.com/hbstack/noscript v0.5.0 // indirect
 	github.com/hbstack/pagination v0.6.0 // indirect
-	github.com/hbstack/preferred-language v0.1.0 // indirect
 	github.com/hbstack/progress-bar v0.1.0 // indirect
 	github.com/hbstack/pwa v0.1.2 // indirect
 	github.com/hbstack/pwa-installer v0.1.0 // indirect
 	github.com/hbstack/scrollbar v0.1.0 // indirect
 	github.com/hbstack/search v0.2.1 // indirect
-	github.com/hbstack/site/modules/common v0.0.0-00010101000000-000000000000 // indirect
 	github.com/hbstack/slide v0.3.1 // indirect
 	github.com/hbstack/snackbar v0.1.2 // indirect
-	github.com/hbstack/social-share-buttons v0.1.3 // indirect
 	github.com/hbstack/socials v0.9.0 // indirect
 	github.com/hbstack/syntax-highlighting v0.2.0 // indirect
+	github.com/hbstack/syntax-highlighting/styles/abap v0.1.1 // indirect
+	github.com/hbstack/syntax-highlighting/styles/arduino v0.1.1 // indirect
+	github.com/hbstack/syntax-highlighting/styles/emacs v0.1.1 // indirect
+	github.com/hbstack/syntax-highlighting/styles/github v0.1.1 // indirect
+	github.com/hbstack/syntax-highlighting/styles/github-dark v0.1.1 // indirect
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.1 // indirect
+	github.com/hbstack/syntax-highlighting/styles/solarized-light v0.1.1 // indirect
+	github.com/hbstack/syntax-highlighting/styles/tango v0.1.1 // indirect
 	github.com/hbstack/theme-cards v0.1.1 // indirect
 	github.com/hbstack/toc-scrollspy v0.1.0 // indirect
-	github.com/henrygd/bigger-picture v1.1.14 // indirect
-	github.com/hugomods/aos v0.1.0 // indirect
+	github.com/henrygd/bigger-picture v1.1.15 // indirect
 	github.com/hugomods/base v0.4.1 // indirect
 	github.com/hugomods/bootstrap v0.17.0 // indirect
 	github.com/hugomods/code-block-panel v0.5.0 // indirect
-	github.com/hugomods/decap-cms v0.11.2 // indirect
-	github.com/hugomods/decap-cms/editor-components/todo v0.1.2 // indirect
-	github.com/hugomods/decap-cms/widgets/url v0.1.2 // indirect
-	github.com/hugomods/docsearch v0.1.0 // indirect
 	github.com/hugomods/font-awesome v6.4.2+incompatible // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
-
+	github.com/hugomods/giscus v0.1.1 // indirect
 	github.com/hugomods/google-adsense v0.1.0 // indirect
 	github.com/hugomods/google-analytics v0.2.0 // indirect
 	github.com/hugomods/gravatar v0.2.0 // indirect
 	github.com/hugomods/hugopress v0.2.3 // indirect
 	github.com/hugomods/i18n-js v0.2.1 // indirect
-	github.com/hugomods/icons v0.6.0 // indirect
-	github.com/hugomods/icons/vendors/bootstrap v0.5.3 // indirect
-	github.com/hugomods/icons/vendors/font-awesome v0.6.1 // indirect
-	github.com/hugomods/icons/vendors/simple-icons v1.0.28 // indirect
-	github.com/hugomods/icons/vendors/tabler v0.9.0 //indirect
+	github.com/hugomods/icons v0.6.2 // indirect
+	github.com/hugomods/icons/vendors/bootstrap v0.5.4 // indirect
+	github.com/hugomods/icons/vendors/feather v0.2.2 // indirect
+	github.com/hugomods/icons/vendors/font-awesome v0.6.2 // indirect
+	github.com/hugomods/icons/vendors/simple-icons v1.0.29 // indirect
+	github.com/hugomods/icons/vendors/tabler v0.15.25 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
 	github.com/hugomods/images v0.9.0 // indirect
 	github.com/hugomods/katex v0.3.0 // indirect
 	github.com/hugomods/mermaid v0.1.1 // indirect
-	github.com/hugomods/microsoft-clarity v0.1.0 // indirect
 	github.com/hugomods/pwa v0.7.0 // indirect
-	github.com/hugomods/recaptcha-v2 v0.1.1 // indirect
-	github.com/hugomods/search v0.8.4 // indirect
+	github.com/hugomods/search v0.8.7 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.0 // indirect
 	github.com/hugomods/seo/modules/base v0.1.0 // indirect
 	github.com/hugomods/seo/modules/favicons v0.2.1 // indirect
@@ -119,13 +110,11 @@ require (
 	github.com/hugomods/seo/modules/translations v0.1.0 // indirect
 	github.com/hugomods/seo/modules/twitter-cards v0.1.0 // indirect
 	github.com/hugomods/shortcodes v0.13.2 // indirect
-	github.com/hugomods/simple-icons v11.1.0+incompatible // indirect
+	github.com/hugomods/simple-icons v11.4.0+incompatible // indirect
 	github.com/hugomods/snackbar v0.1.2 // indirect
-	github.com/hugomods/video-js v0.1.1 // indirect
 	github.com/hugomods/workbox v0.1.0 // indirect
 	github.com/jakearchibald/idb v8.0.0+incompatible // indirect
 	github.com/krisk/Fuse v7.0.0+incompatible // indirect
-	github.com/razonyang/hb-mod-thanks v0.5.1 // indirect
 	github.com/twbs/bootstrap v5.3.2+incompatible // indirect
 	github.com/twbs/icons v1.11.3 // indirect
 )

@@ -1,6 +1,0 @@
-cascade:
-  - _target:
-      path: /releases/*/**
-    _build:
-      list: never
-      render: never

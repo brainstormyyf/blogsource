@@ -1,3 +1,36 @@
-@import 'emgithub';
-@import 'site';
-@import 'header';
+// This SCSS styles will be compiled into the CSS bundle automatically.
+
+/*! purgecss start ignore */
+
+/*! PUT YOU STYLE HERE TO AVOID GETTING REMOVING BY PURGECSS. */
+$hb-module-prefix: "hb-";
+.#{$hb-module-prefix}docs-doc-comments {
+  &.#{$hb-module-prefix}module {
+    display: none; // 或者使用其他属性来隐藏元素
+  }
+}
+
+.#{$hb-module-prefix}module {
+  margin-bottom: 0;
+  margin-left: -5px;
+  // 或者
+  // margin: 0;
+}
+
+.hb-docs-doc-content.hb-module {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.chroma {
+  background-color: #e8e8e8;
+  max-height: 5000px;
+}
+
+.highlight pre {
+  max-height: 5000px;
+  overflow: auto;
+  padding: 1rem 0.5rem;
+}
+
+/*! purgecss end ignore */
