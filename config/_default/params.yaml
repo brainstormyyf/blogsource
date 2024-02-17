@@ -12,7 +12,7 @@ hb:
   google_fonts:
     families:
       - name: Poppins
-      # - name: Noto Serif Simplified Chinese
+      - name: Noto Serif Simplified Chinese
       - name: Agbalumo
   styles:
     primary: "#7952b3"
@@ -30,11 +30,7 @@ hb:
     sticky: true
     full_width: true
     logo: true
-    # theme: 'classic'
-    # logo_bg: '#7952b3'
-    # menus_alignment: 'end'
     brand: "YAO"
-    font: google-fonts
     socials:
       zhihu: yao-yi-feng-36-79
       github: brainstormYYF
@@ -82,7 +78,10 @@ hb:
     #   env_id: https://twikoo.hugomods.com/
     sidebar:
       posts:
-        style: pills
+        featured_count: 0 # 精选文章的数量。
+        recent_count: 0 # 最新文章的数量。
+        style: pills #选项卡样式：pills、tabs 或 underline。
+        list_style: slide # 列表样式：slide 或者 vertical。
       taxonomies:
         style: pills
       profile:
@@ -147,7 +146,7 @@ hb:
 #     short_name: "HB"
 
 code_block_panel:
-  max_lines: 10
+  max_lines: 15
   wrap: false
 
 seo:

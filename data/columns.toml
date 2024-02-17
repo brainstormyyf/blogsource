@@ -19,7 +19,8 @@ url = "hugo博客"
 description = "基于HB框架搭建个人博客的教程"
 [hugo.icon]
 vendor = "simple-icons"
-name = "Hugo"
+name = "sass"
+# name = "Hugo"
 color = "green"
 
 [pytorch]

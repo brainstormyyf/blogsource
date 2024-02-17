@@ -26,7 +26,7 @@ nav_icon:
 
 ## <center>项目介绍 </center>
 
-`<br/>`
+<br/>
 {{< bs/icon-grid  data="projects" linkText="阅读更多" alignment="center" >}}
 
 ## <center>随笔杂谈 </center>

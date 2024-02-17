@@ -4,6 +4,8 @@
 
 /*! PUT YOU STYLE HERE TO AVOID GETTING REMOVING BY PURGECSS. */
 $hb-module-prefix: "hb-";
+
+//设置隐藏comment图块
 .#{$hb-module-prefix}docs-doc-comments {
   &.#{$hb-module-prefix}module {
     display: none; // 或者使用其他属性来隐藏元素
@@ -22,15 +24,20 @@ $hb-module-prefix: "hb-";
   padding-right: 25px;
 }
 
+//设置代码块背景颜色
 .chroma {
   background-color: #e8e8e8;
   max-height: 5000px;
 }
 
+//设置代码块最大高度
 .highlight pre {
   max-height: 5000px;
   overflow: auto;
   padding: 1rem 0.5rem;
 }
 
+.navbar-brand {
+  font-family: Agbalumo, serif;
+}
 /*! purgecss end ignore */

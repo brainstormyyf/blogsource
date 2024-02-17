@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
+                "file": "_index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
+                "file": "_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
+                "file": "_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md"
+                "file": "_index.md"
               }
             }
           }
@@ -147,9 +147,11 @@
   },
   "active": "ecbc9632cb85bf35",
   "lastOpenFiles": [
+    "admin/_index.md",
+    "环境配置/_index.md",
+    "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
     "环境配置/python/pip设置代理.md",
     "环境配置/python/pip换源.md",
-    "admin/_index.md",
     "admin",
     "_index.md",
     "简介/_index.md",
@@ -181,8 +183,6 @@
     "深度学习/_index.md",
     "hugo博客/_index.md",
     "环境配置/玩机技巧/油猴脚本.md",
-    "环境配置/_index.md",
-    "虚拟试衣/_index.md",
     "环境配置/玩机技巧/attachments/rjaoa.png",
     "环境配置/玩机技巧/attachments/rjaoa.webp",
     "环境配置/玩机技巧/attachments/t99uj.webp",

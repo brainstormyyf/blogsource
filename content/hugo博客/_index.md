@@ -9,6 +9,6 @@ menu:
       description: 静态博客网站
       icon:
         vendor: simple
-        name: Hugo
+        name: sass
         color: green
 ---
