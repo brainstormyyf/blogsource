@@ -19,8 +19,7 @@ url = "hugo博客"
 description = "基于HB框架搭建个人博客的教程"
 [hugo.icon]
 vendor = "simple-icons"
-name = "sass"
-# name = "Hugo"
+name = "hugo"
 color = "green"
 
 [pytorch]
@@ -30,7 +29,7 @@ url = "pytorch"
 description = "pytorch常用代码段与debug记录"
 [pytorch.icon]
 vendor = "simple-icons"
-name = "PyTorch"
+name = "pytorch"
 color = "#E6492A"
 
 [AI]
@@ -49,7 +48,7 @@ url = "深度学习"
 description = "李宏毅深度学习课程笔记，基础概念讲解"
 [deep-learning.icon]
 vendor = "simple-icons"
-name = "OpenAI"
+name = "openai"
 color = "blue"    
         # "#05A3ED"
 

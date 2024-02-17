@@ -8,7 +8,7 @@ draft: false
 nav_weight: 1
 nav_icon:
   vendor: simple
-  name: Python
+  name: python
   color: "#e24d0e"
 series:
   - 环境配置

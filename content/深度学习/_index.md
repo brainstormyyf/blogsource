@@ -9,6 +9,6 @@ menu:
       description: 李宏毅课程笔记
       icon:
         vendor: simple
-        name: OpenAI
+        name: openai
         color: blue
 ---

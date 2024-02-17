@@ -9,6 +9,6 @@ menu:
       description: pytorch代码解析
       icon:
         vendor: simple
-        name: PyTorch
+        name: pytorch
         color: "#E6492A"
 ---

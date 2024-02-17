@@ -9,6 +9,6 @@ menu:
       description: 算法刷题笔记
       icon:
         vendor: simple
-        name: Leetcode
+        name: leetcode
         color: black
 ---
