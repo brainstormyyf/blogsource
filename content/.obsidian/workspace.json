@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index.md",
+                "file": "hugo博客/文档属性.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "34fbf74ec12e421c",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_index.md",
+                "file": "hugo博客/文档属性.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_index.md",
+                "file": "hugo博客/文档属性.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_index.md"
+                "file": "hugo博客/文档属性.md"
               }
             }
           }
@@ -134,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5
+    "width": 296.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -145,16 +145,29 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ecbc9632cb85bf35",
+  "active": "759090ae8aee5b82",
   "lastOpenFiles": [
-    "admin/_index.md",
+    "hugo博客/短代码.md",
+    "hugo博客/简介和安装.md",
+    "hugo博客/文档属性.md",
+    "hugo博客/markdown语法.md",
     "环境配置/_index.md",
+    "环境配置/python/_index.md",
+    "hugo博客/_index.md",
     "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
-    "环境配置/python/pip设置代理.md",
-    "环境配置/python/pip换源.md",
-    "admin",
-    "_index.md",
+    "hugo博客/前期准备/_index.md",
     "简介/_index.md",
+    "hugo博客/前期准备/从零开始搭建自己的个人博客.md",
+    "hugo博客/简介/_index.md",
+    "hugo博客/简介",
+    "hugo博客/前期准备",
+    "未命名 1",
+    "环境配置/python/pip换源.md",
+    "环境配置/玩机技巧/_index.md",
+    "_index.md",
+    "admin/_index.md",
+    "环境配置/python/pip设置代理.md",
+    "admin",
     "简介",
     "新建文件夹",
     "项目",
@@ -165,24 +178,11 @@
     "笔记专栏/hugo博客/_index.md",
     "笔记专栏/hugo博客",
     "笔记专栏/pytorch/_index.md",
-    "笔记专栏/pytorch",
     "笔记专栏/深度学习/_index.md",
-    "笔记专栏/深度学习",
     "笔记专栏/环境配置/玩机技巧/油猴脚本.md",
     "笔记专栏/环境配置/玩机技巧/_index.md",
     "笔记专栏/环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
     "笔记专栏/环境配置/python/_index.md",
-    "笔记专栏/环境配置/python/pytorch安装教程.md",
-    "笔记专栏/环境配置/python/pip设置代理.md",
-    "笔记专栏/环境配置/python/pip换源.md",
-    "笔记专栏/环境配置/玩机技巧",
-    "笔记专栏/环境配置/_index.md",
-    "pytorch/_index.md",
-    "AI论文/_index.md",
-    "算法笔记/_index.md",
-    "深度学习/_index.md",
-    "hugo博客/_index.md",
-    "环境配置/玩机技巧/油猴脚本.md",
     "环境配置/玩机技巧/attachments/rjaoa.png",
     "环境配置/玩机技巧/attachments/rjaoa.webp",
     "环境配置/玩机技巧/attachments/t99uj.webp",

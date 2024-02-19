@@ -11135,6 +11135,9 @@ html {
   font-family: Agbalumo, serif; }
 
 /*! purgecss end ignore */
+:root {
+  --hb-body-line-height: 1.7; }
+
 .hb-header .navbar {
   --hb-navbar-active-color: var(--hb-primary);
   --hb-navbar-hover-color: var(--hb-header-navbar-active-color);
