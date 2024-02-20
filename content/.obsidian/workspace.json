@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "af04a33b6d78829e",
+        "id": "6837cdf891c69d5a",
         "type": "tabs",
         "children": [
           {
-            "id": "710562f2ec0261fe",
+            "id": "d730278e3a682805",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "环境配置/git/git常用命令.md",
+                "file": "简介/_index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "环境配置/git/git常用命令.md",
+                "file": "简介/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "环境配置/git/git常用命令.md",
+                "file": "简介/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "环境配置/git/git常用命令.md"
+                "file": "简介/_index.md"
               }
             }
           }
@@ -145,11 +145,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "710562f2ec0261fe",
+  "active": "d730278e3a682805",
   "lastOpenFiles": [
+    "_index.md",
     "环境配置/git/Git 指南：版本控制的力量.md",
-    "hugo博客/常用的hugo命令.md",
     "环境配置/git/git常用命令.md",
+    "简介/_index.md",
+    "hugo博客/常用的hugo命令.md",
+    "hugo博客/短代码.md",
+    "hugo博客/简介和安装.md",
+    "hugo博客/文档属性.md",
+    "hugo博客/markdown语法.md",
+    "简介",
     "环境配置/git/attachments/agp1h.webp",
     "环境配置/git/attachments/patqd.webp",
     "环境配置/git/attachments",
@@ -159,17 +166,12 @@
     "环境配置/git/attachments/fpeel.gif",
     "环境配置/git/_index.md",
     "环境配置/git",
-    "hugo博客/文档属性.md",
-    "hugo博客/markdown语法.md",
     "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
     "环境配置/python/pip设置代理.md",
-    "hugo博客/简介和安装.md",
-    "hugo博客/短代码.md",
     "环境配置/_index.md",
     "环境配置/python/_index.md",
     "hugo博客/_index.md",
     "hugo博客/前期准备/_index.md",
-    "简介/_index.md",
     "hugo博客/前期准备/从零开始搭建自己的个人博客.md",
     "hugo博客/简介/_index.md",
     "hugo博客/简介",
@@ -177,10 +179,8 @@
     "未命名 1",
     "环境配置/python/pip换源.md",
     "环境配置/玩机技巧/_index.md",
-    "_index.md",
     "admin/_index.md",
     "admin",
-    "简介",
     "新建文件夹",
     "项目",
     "笔记专栏/算法笔记/_index.md",
