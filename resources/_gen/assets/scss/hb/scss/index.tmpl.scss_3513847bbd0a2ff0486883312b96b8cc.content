@@ -11138,6 +11138,69 @@ html {
 :root {
   --hb-body-line-height: 1.7; }
 
+h1,
+.h1 {
+  font-size: 2.1rem;
+  font-weight: 550; }
+
+h1,
+.h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold; }
+
+h2,
+.h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold; }
+
+h3,
+.h3 {
+  display: block;
+  font-size: 1.2em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold; }
+
+h4,
+.h4 {
+  display: block;
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold; }
+
+h5,
+.h5 {
+  display: block;
+  font-size: 0.83em;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold; }
+
+h6,
+.h6 {
+  display: block;
+  font-size: 0.67em;
+  margin-top: 2.33em;
+  margin-bottom: 2.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold; }
+
 .hb-header .navbar {
   --hb-navbar-active-color: var(--hb-primary);
   --hb-navbar-hover-color: var(--hb-header-navbar-active-color);

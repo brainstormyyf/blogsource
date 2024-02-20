@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4f32e7ca575af399",
+        "id": "af04a33b6d78829e",
         "type": "tabs",
         "children": [
           {
-            "id": "ecbc9632cb85bf35",
+            "id": "710562f2ec0261fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hugo博客/文档属性.md",
+                "file": "环境配置/git/git常用命令.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hugo博客/文档属性.md",
+                "file": "环境配置/git/git常用命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hugo博客/文档属性.md",
+                "file": "环境配置/git/git常用命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hugo博客/文档属性.md"
+                "file": "环境配置/git/git常用命令.md"
               }
             }
           }
@@ -145,16 +145,29 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "759090ae8aee5b82",
+  "active": "710562f2ec0261fe",
   "lastOpenFiles": [
-    "hugo博客/短代码.md",
-    "hugo博客/简介和安装.md",
+    "环境配置/git/Git 指南：版本控制的力量.md",
+    "hugo博客/常用的hugo命令.md",
+    "环境配置/git/git常用命令.md",
+    "环境配置/git/attachments/agp1h.webp",
+    "环境配置/git/attachments/patqd.webp",
+    "环境配置/git/attachments",
+    "环境配置/git/attachments/t8e4v.gif",
+    "环境配置/git/attachments/pkjo7.gif",
+    "环境配置/git/attachments/xpud4.gif",
+    "环境配置/git/attachments/fpeel.gif",
+    "环境配置/git/_index.md",
+    "环境配置/git",
     "hugo博客/文档属性.md",
     "hugo博客/markdown语法.md",
+    "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
+    "环境配置/python/pip设置代理.md",
+    "hugo博客/简介和安装.md",
+    "hugo博客/短代码.md",
     "环境配置/_index.md",
     "环境配置/python/_index.md",
     "hugo博客/_index.md",
-    "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
     "hugo博客/前期准备/_index.md",
     "简介/_index.md",
     "hugo博客/前期准备/从零开始搭建自己的个人博客.md",
@@ -166,7 +179,6 @@
     "环境配置/玩机技巧/_index.md",
     "_index.md",
     "admin/_index.md",
-    "环境配置/python/pip设置代理.md",
     "admin",
     "简介",
     "新建文件夹",
@@ -174,24 +186,11 @@
     "笔记专栏/算法笔记/_index.md",
     "笔记专栏/算法笔记",
     "笔记专栏/AI论文/_index.md",
-    "笔记专栏/AI论文",
     "笔记专栏/hugo博客/_index.md",
-    "笔记专栏/hugo博客",
     "笔记专栏/pytorch/_index.md",
-    "笔记专栏/深度学习/_index.md",
-    "笔记专栏/环境配置/玩机技巧/油猴脚本.md",
-    "笔记专栏/环境配置/玩机技巧/_index.md",
-    "笔记专栏/环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
-    "笔记专栏/环境配置/python/_index.md",
     "环境配置/玩机技巧/attachments/rjaoa.png",
     "环境配置/玩机技巧/attachments/rjaoa.webp",
     "环境配置/玩机技巧/attachments/t99uj.webp",
-    "环境配置/玩机技巧/attachments/y2r37.webp",
-    "环境配置/玩机技巧/attachments/a0gsz.webp",
-    "环境配置/玩机技巧/attachments/90bgt.webp",
-    "环境配置/玩机技巧/attachments/ucynr.webp",
-    "环境配置/玩机技巧/attachments/qlkkn.webp",
-    "环境配置/玩机技巧/attachments/g7mj3.webp",
-    "环境配置/玩机技巧/attachments/gpb5k.webp"
+    "环境配置/玩机技巧/attachments/y2r37.webp"
   ]
 }

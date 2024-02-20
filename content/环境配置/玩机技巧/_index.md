@@ -5,15 +5,15 @@ linkTitle: 玩机技巧
 description: ""
 date: 2024-02-15T20:54:11+08:00
 draft: false
-nav_weight: 2
+nav_weight: 100
 nav_icon:
   vendor: bootstrap
   name: display
-  color: "#e24d0e"
+  className: text-secondary
 series:
   - 环境配置
-tags: 
-images: 
+tags:
+images:
 authors:
   - YYF
 ---

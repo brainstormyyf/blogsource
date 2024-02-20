@@ -5,7 +5,7 @@ linkTitle: "Python"
 description:
 date: 2024-02-14T12:34:18+08:00
 draft: false
-nav_weight: 1
+nav_weight: 2
 nav_icon:
   vendor: simple
   name: python
