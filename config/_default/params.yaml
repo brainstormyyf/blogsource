@@ -55,7 +55,7 @@ hb:
       alignment: center
       media:
         - sinaweibo
-        - twitter
+        # - twitter
         # - facebook
         - linkedin
 
@@ -100,7 +100,7 @@ hb:
       alignment: center
       media:
         - sinaweibo
-        - twitter
+        # - twitter
         # - facebook
         - linkedin
 
