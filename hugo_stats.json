@@ -217,9 +217,14 @@
       "h6",
       "hb-blog-main",
       "hb-blog-main-container",
+      "hb-blog-post",
       "hb-blog-post-card",
       "hb-blog-post-card-img",
+      "hb-blog-post-comments",
+      "hb-blog-post-content",
       "hb-blog-post-date",
+      "hb-blog-post-intro",
+      "hb-blog-post-main",
       "hb-blog-post-meta",
       "hb-blog-post-reading-time",
       "hb-blog-post-section",
@@ -230,6 +235,7 @@
       "hb-blog-post-taxonomy-tag",
       "hb-blog-post-title",
       "hb-blog-post-title-link",
+      "hb-blog-post-toc",
       "hb-blog-posts",
       "hb-blog-sidebar",
       "hb-blog-sidebar-profile",
@@ -355,6 +361,7 @@
       "offcanvas-title",
       "order-5",
       "overflow-hidden",
+      "overflow-y-auto",
       "p-0",
       "p-1",
       "p-2",
@@ -368,6 +375,7 @@
       "position-absolute",
       "position-fixed",
       "position-relative",
+      "position-sticky",
       "ps-0",
       "ps-4",
       "ps-lg-3",
@@ -420,6 +428,7 @@
       "text-body-50",
       "text-body-emphasis",
       "text-body-secondary",
+      "text-break",
       "text-center",
       "text-danger",
       "text-decoration-none",
@@ -438,6 +447,7 @@
       "theme-toggle-item",
       "theme-toggle-item-icon",
       "theme-toggle-menu",
+      "toc",
       "top-0",
       "visually-hidden",
       "vr",
@@ -521,6 +531,10 @@
       "3-调度的实现",
       "3-进程的组织",
       "3-页框分配",
+<<<<<<< HEAD
+=======
+      "32虚拟内存管理",
+>>>>>>> bb7afafc5e1abe80b119868324f0b9a4fbbdaaa6
       "3gpu版pytorch安装",
       "3内存保护",
       "3分布式的优势",
@@ -639,6 +653,10 @@
       "六dropout",
       "六版本回退",
       "六虚拟机",
+<<<<<<< HEAD
+=======
+      "内存映射文件",
+>>>>>>> bb7afafc5e1abe80b119868324f0b9a4fbbdaaa6
       "分隔线",
       "列表",
       "单次设置",
@@ -653,6 +671,7 @@
       "安装特定版本的包",
       "引用",
       "强调",
+      "抖动和工作集",
       "方法1使用conda安装",
       "方法2使用pip安装",
       "标题",
@@ -662,8 +681,13 @@
       "段落与换行",
       "永久设置",
       "自动链接",
+      "虚拟内存基本概念",
+      "虚拟内存管理",
       "表格",
-      "链接与图片"
+      "请求分页管理",
+      "链接与图片",
+      "页框分配",
+      "页面置换算法"
     ]
   }
 }
