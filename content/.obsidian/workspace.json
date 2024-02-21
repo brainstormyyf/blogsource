@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "简介/_index.md",
+                "file": "AI论文/AlexNet论文精读及模型详解.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "简介/_index.md",
+                "file": "AI论文/AlexNet论文精读及模型详解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "简介/_index.md",
+                "file": "AI论文/AlexNet论文精读及模型详解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "简介/_index.md"
+                "file": "AI论文/AlexNet论文精读及模型详解.md"
               }
             }
           }
@@ -147,50 +147,51 @@
   },
   "active": "d730278e3a682805",
   "lastOpenFiles": [
-    "_index.md",
-    "环境配置/git/Git 指南：版本控制的力量.md",
-    "环境配置/git/git常用命令.md",
-    "简介/_index.md",
-    "hugo博客/常用的hugo命令.md",
-    "hugo博客/短代码.md",
-    "hugo博客/简介和安装.md",
-    "hugo博客/文档属性.md",
-    "hugo博客/markdown语法.md",
-    "简介",
-    "环境配置/git/attachments/agp1h.webp",
-    "环境配置/git/attachments/patqd.webp",
-    "环境配置/git/attachments",
-    "环境配置/git/attachments/t8e4v.gif",
-    "环境配置/git/attachments/pkjo7.gif",
-    "环境配置/git/attachments/xpud4.gif",
-    "环境配置/git/attachments/fpeel.gif",
-    "环境配置/git/_index.md",
-    "环境配置/git",
-    "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
-    "环境配置/python/pip设置代理.md",
+    "408/操作系统/内存管理.md",
+    "408/操作系统/第一章：操作系统引论.md",
+    "408/操作系统/第二章：进程的描述与控制.md",
+    "AI论文/AlexNet论文精读及模型详解.md",
+    "408/操作系统/attachments/fdb31bf0039648a354106b4aa787aaa53df7990133e64d16632618da77e4dabb.webp",
+    "408/操作系统/attachments/e22fa1db8292a39dd092ae2bb2dce1fbfcb1632e9357bc8183ee2bc70f6cab48.webp",
+    "408/操作系统/attachments/cee5ed49069b96bbb3dd8dd8620e17f91aff86d4883cdeb031988f7e361c2cb0.webp",
+    "408/操作系统/attachments/7885742e3a33fb05b107eb8f16705152c77a47f39a79c51dda2c339372867b6e.webp",
+    "408/操作系统/attachments/8455af4be7d0523b0d6df02af1cc35e0cafdf2f50556f6b16fa7e7d729d8d5ac.webp",
+    "408/操作系统/attachments/17b5252828f4bd02d27a4e26bb4317f4fa9c3efc4543ae7c01fcbd6eabd71b99.webp",
+    "408/操作系统/attachments/13aec5cf69994791a062c64c8fef6c8622aa1418af88959ef99d671e2ccb99e4.webp",
+    "408/操作系统/attachments/7fef3fb554cc01d627afc4473ab0da75872072b9244373397f389bbe1df77114.webp",
+    "408/操作系统/attachments/1e28776048e21dfcbb8b92f5a0822655e4badeea2264eae7ed00693b2401f362.webp",
+    "408/操作系统/attachments/e22fa1db8292a39dd092ae2bb2dce1fbfcb1632e9357bc8183ee2bc70f6cab48.png",
+    "408/操作系统/attachments",
+    "408/操作系统/Pasted.md",
+    "408/操作系统/_index.md",
+    "408/第一章：操作系统引论.md",
+    "408/操作系统",
+    "408/新建文件夹",
     "环境配置/_index.md",
-    "环境配置/python/_index.md",
-    "hugo博客/_index.md",
-    "hugo博客/前期准备/_index.md",
-    "hugo博客/前期准备/从零开始搭建自己的个人博客.md",
-    "hugo博客/简介/_index.md",
-    "hugo博客/简介",
-    "hugo博客/前期准备",
-    "未命名 1",
-    "环境配置/python/pip换源.md",
-    "环境配置/玩机技巧/_index.md",
-    "admin/_index.md",
-    "admin",
-    "新建文件夹",
-    "项目",
-    "笔记专栏/算法笔记/_index.md",
-    "笔记专栏/算法笔记",
-    "笔记专栏/AI论文/_index.md",
-    "笔记专栏/hugo博客/_index.md",
-    "笔记专栏/pytorch/_index.md",
-    "环境配置/玩机技巧/attachments/rjaoa.png",
-    "环境配置/玩机技巧/attachments/rjaoa.webp",
-    "环境配置/玩机技巧/attachments/t99uj.webp",
-    "环境配置/玩机技巧/attachments/y2r37.webp"
+    "开发工具/玩机技巧/油猴脚本.md",
+    "开发工具/python/_index.md",
+    "开发工具/玩机技巧/_index.md",
+    "开发工具/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
+    "开发工具/python/pytorch安装教程.md",
+    "开发工具/python/pip设置代理.md",
+    "开发工具/git/_index.md",
+    "开发工具/python/pip换源.md",
+    "开发工具/git/git常用命令.md",
+    "开发工具/git/Git 指南：版本控制的力量.md",
+    "开发工具/玩机技巧",
+    "开发工具/_index.md",
+    "开发工具/python",
+    "开发工具/git",
+    "开发工具",
+    "环境配置/git/git常用命令.md",
+    "408/attachments",
+    "简介/第一章：操作系统引论.md",
+    "408/_index.md",
+    "408",
+    "hugo博客/常用的hugo命令.md",
+    "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
+    "简介/attachments",
+    "简介/_index.md",
+    "_index.md"
   ]
 }

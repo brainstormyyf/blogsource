@@ -1,12 +1,12 @@
 ---
 type: docs
-title: 环境配置
+title: 开发工具
 menu:
   main:
     parent: column
     weight: 2
     params:
-      description: 环境配置
+      description: git,pip,anaconda,脚本
       icon:
         vendor: bs
         name: toggles
