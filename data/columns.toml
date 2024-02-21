@@ -1,8 +1,8 @@
 [envconfig]
 weight = 1
-title = "环境配置"
-url = "环境配置"
-description = "各种开发工具和开发环境的下载安装部署方法"
+title = "开发工具"
+url = "开发工具"
+description = "各种常用开发工具和开发环境的指南（git,pip,anaconda,...）"
 [envconfig.icon]
 name = "toggles"
 color = "#7952b3"
@@ -13,7 +13,7 @@ color = "#7952b3"
 #   color: '#e24d0e'
 
 [hugo]
-weight = 2
+weight = 100
 title = "hugo博客"
 url = "hugo博客"
 description = "基于HB框架搭建个人博客的教程"
@@ -22,14 +22,14 @@ vendor = "simple-icons"
 name = "hugo"
 color = "green"
 
-[pytorch]
+[408]
 weight = 3
-title = "pytorch代码解析"
-url = "pytorch"
-description = "pytorch常用代码段与debug记录"
-[pytorch.icon]
-vendor = "simple-icons"
-name = "pytorch"
+title = "计算机四大件"
+url = "408"
+description = "408笔记：数据结构，操作系统，计算机组成原理，计算机网络"
+[408.icon]
+vendor = "bs"
+name = "pc-display-horizontal"
 color = "#E6492A"
 
 [AI]
