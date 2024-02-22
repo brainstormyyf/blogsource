@@ -14,6 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "408/操作系统/第五章：输入输出系统.md",
+                "file": "开发工具/git/git常用命令.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,6 +87,7 @@
               "type": "backlink",
               "state": {
                 "file": "408/操作系统/第五章：输入输出系统.md",
+                "file": "开发工具/git/git常用命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,6 +105,7 @@
               "type": "outgoing-link",
               "state": {
                 "file": "408/操作系统/第五章：输入输出系统.md",
+                "file": "开发工具/git/git常用命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,5 +199,9 @@
     "开发工具",
     "408/attachments",
     "408"
+    "简介/第一章：操作系统引论.md",
+    "408/_index.md",
+    "408",
+    "hugo博客/常用的hugo命令.md"
   ]
 }
