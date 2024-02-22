@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI论文/AlexNet论文精读及模型详解.md",
+                "file": "开发工具/git/git常用命令.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI论文/AlexNet论文精读及模型详解.md",
+                "file": "开发工具/git/git常用命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI论文/AlexNet论文精读及模型详解.md",
+                "file": "开发工具/git/git常用命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI论文/AlexNet论文精读及模型详解.md"
+                "file": "开发工具/git/git常用命令.md"
               }
             }
           }
@@ -145,12 +145,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d730278e3a682805",
+  "active": "759090ae8aee5b82",
   "lastOpenFiles": [
+    "算法笔记/_index.md",
+    "算法笔记/数组/_index.md",
+    "算法笔记/数组.md",
+    "算法笔记/数组",
+    "AI论文/AlexNet论文精读及模型详解.md",
     "408/操作系统/内存管理.md",
     "408/操作系统/第一章：操作系统引论.md",
     "408/操作系统/第二章：进程的描述与控制.md",
-    "AI论文/AlexNet论文精读及模型详解.md",
     "408/操作系统/attachments/fdb31bf0039648a354106b4aa787aaa53df7990133e64d16632618da77e4dabb.webp",
     "408/操作系统/attachments/e22fa1db8292a39dd092ae2bb2dce1fbfcb1632e9357bc8183ee2bc70f6cab48.webp",
     "408/操作系统/attachments/cee5ed49069b96bbb3dd8dd8620e17f91aff86d4883cdeb031988f7e361c2cb0.webp",
@@ -188,10 +192,6 @@
     "简介/第一章：操作系统引论.md",
     "408/_index.md",
     "408",
-    "hugo博客/常用的hugo命令.md",
-    "环境配置/python/使用Anaconda轻松管理python虚拟环境与安装第三方包.md",
-    "简介/attachments",
-    "简介/_index.md",
-    "_index.md"
+    "hugo博客/常用的hugo命令.md"
   ]
 }
