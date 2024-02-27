@@ -11,8 +11,12 @@
             "id": "db86e5ff03608064",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "材料生成/ConALAE 代码解读代码解读.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "材料生成/ConALAE 代码解读代码解读.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "材料生成/ConALAE 代码解读代码解读.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "材料生成/ConALAE 代码解读代码解读.md"
+              }
             }
           }
         ],
@@ -139,18 +147,53 @@
   },
   "active": "db86e5ff03608064",
   "lastOpenFiles": [
-    "408/计算机组成原理/第七章：输入输出系统.md",
-    "408/计算机组成原理/第六章：系统总线.md",
-    "408/计算机组成原理/第五章：中央处理器.md",
-    "408/计算机组成原理/第四章：指令系统.md",
-    "408/计算机组成原理/第三章：存储器.md",
-    "408/计算机组成原理/总线.md",
-    "408/计算机组成原理/第二章：数据表示与运算.md",
-    "408/计算机组成原理/第一章：计算机组成原理概论.md",
-    "408/操作系统/第五章：输入输出系统.md",
-    "408/操作系统/第一章：操作系统引论.md",
-    "408/计算机组成原理/_index.md",
-    "408/操作系统/_index.md",
-    "408/计算机组成原理"
+    "材料生成/专利证书.md",
+    "材料生成/ConALAE 代码解读代码解读.md",
+    "408/计算机组成原理/as.py",
+    "_index.md",
+    "ConALAE代码解读.pdf",
+    "Generated/images",
+    "Generated",
+    "Generated/Bookmarks",
+    "材料生成/_index.md",
+    "虚拟试衣/项目详细方案.md",
+    "材料生成/attachments/master-图片-2.webp",
+    "材料生成/attachments/master-图片-1.webp",
+    "材料生成/attachments",
+    "材料生成",
+    "专利证书.md",
+    "材料成分生成.md",
+    "材料生成/attachments/master-图片-2.jpg",
+    "材料生成/attachments/master-图片-1.jpg",
+    "材料生成/新建文件夹",
+    "未命名 2.canvas",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "重识别/材料生成/专利证书.md",
+    "重识别/材料生成",
+    "重识别/fastreid项目简介/背景知识介绍.md",
+    "重识别/fastreid项目简介/fast-reid环境配置及入门.md",
+    "重识别/fastreid详细介绍/模型更改backbone.md",
+    "重识别/fastreid详细介绍/配置文件解读.md",
+    "重识别/fastreid详细介绍/模型结构解读.md",
+    "重识别/fastreid详细介绍/Aggregation&Head.md",
+    "重识别/fastreid详细介绍/attachments/hemt7.webp",
+    "重识别/fastreid详细介绍/attachments/gjsla.webp",
+    "重识别/fastreid详细介绍/attachments/bi8bt.webp",
+    "重识别/fastreid详细介绍/attachments/bi8bt.png",
+    "重识别/fastreid详细介绍/attachments/gjsla.png",
+    "重识别/fastreid详细介绍/attachments/hemt7.png",
+    "重识别/fastreid详细介绍/添加第三方模型.md",
+    "重识别/fastreid详细介绍/数据集和预训练模型.md",
+    "重识别/fastreid详细介绍/项目结构.md",
+    "重识别/fastreid详细介绍/fastreid使用.md",
+    "重识别/fastreid项目简介/_index.md",
+    "重识别/fastreid详细介绍/attachments/新建 文本文档.txt",
+    "重识别/fastreid详细介绍/_index.md",
+    "开发工具/python/_index.md",
+    "开发工具/玩机技巧/_index.md",
+    "开发工具/_index.md",
+    "重识别/_index.md",
+    "开发工具/git/_index.md"
   ]
 }

@@ -21,7 +21,7 @@ description = "参与课题组项目《多模态的轮船重识别》，毕设�
 weight = 3
 title = "材料生成模型"
 url = "材料生成"
-description = "发明专利《基于GAN和VAE的材料成分生成方法》"
+description = "发明专利《基于GAN和VAE的材料成分生成方法及评价方法》"
 [Material_generation.icon]
 name = "circle-half"
 

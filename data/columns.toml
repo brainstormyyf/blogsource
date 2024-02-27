@@ -36,7 +36,7 @@ color = "#E6492A"
 weight = 4
 title = "AI论文"
 url = "AI论文"
-description = "李沐大神讲解经典AI论文精读笔记"
+description = "一些AI论文的精读笔记"
 [AI.icon]
 name = "rocket"
 color = "#DC3545"
@@ -44,8 +44,8 @@ color = "#DC3545"
 [deep-learning]
 weight = 5
 title = "深度学习"
-url = "深度学习"
-description = "李宏毅深度学习课程笔记，基础概念讲解"
+# url = "深度学习"
+description = "暂未更新：李宏毅深度学习课程笔记，基础概念讲解"
 [deep-learning.icon]
 vendor = "simple-icons"
 name = "openai"
