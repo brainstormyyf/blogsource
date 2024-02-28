@@ -1,6 +1,6 @@
 module github.com/hbstack/theme
 
-go 1.22
+go 1.21
 
 require (
 	github.com/GoogleChrome/workbox v7.0.0+incompatible // indirect
