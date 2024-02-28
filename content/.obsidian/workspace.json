@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智慧课堂/中小学学生课堂行为跟踪与分析系统需求说明书.md",
+                "file": "虚拟试衣/_index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "智慧课堂/中小学学生课堂行为跟踪与分析系统需求说明书.md",
+                "file": "虚拟试衣/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "智慧课堂/中小学学生课堂行为跟踪与分析系统需求说明书.md",
+                "file": "虚拟试衣/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "智慧课堂/中小学学生课堂行为跟踪与分析系统需求说明书.md"
+                "file": "虚拟试衣/_index.md"
               }
             }
           }
@@ -147,13 +147,32 @@
   },
   "active": "69f74225b57292c9",
   "lastOpenFiles": [
+    "智慧课堂/_index.md",
+    "安全驾驶/_index.md",
+    "视频人像分割/_index.md",
+    "材料生成/_index.md",
+    "重识别/_index.md",
+    "安全驾驶/论文接收证书.md",
+    "安全驾驶/论文内容.md",
+    "安全驾驶/attachments/Pasted image 20240229012217.webp",
+    "安全驾驶/attachments/Pasted image 20240229012217.png",
+    "安全驾驶/attachments",
+    "视频人像分割/项目详细方案.md",
+    "安全驾驶",
+    "视频人像分割/获奖证书.md",
+    "视频人像分割/attachments/20c69e7e455d1118f694afc5b1d67aa.jpg",
+    "视频人像分割/attachments/20c69e7e455d1118f694afc5b1d67aa.webp",
+    "视频人像分割/attachments/4a0e2598ae1640c4cc82f3fae899b39.webp",
+    "视频人像分割/attachments/4d1a9545526d754ed3498013d0eabb9.jpg",
+    "视频人像分割/attachments/4a0e2598ae1640c4cc82f3fae899b39.jpg",
+    "视频人像分割/attachments",
     "智慧课堂/中小学学生行为跟踪与分析系统界面展示.md",
+    "智慧课堂/中小学学生课堂行为跟踪与分析系统需求说明书.md",
     "智慧课堂/项目详细方案.md",
     "智慧课堂/attachments/幻灯片20.png",
     "智慧课堂/attachments/幻灯片13.png",
     "智慧课堂/attachments/幻灯片6.png",
     "智慧课堂/attachments",
-    "智慧课堂/中小学学生课堂行为跟踪与分析系统需求说明书.md",
     "智慧课堂/系统模拟视频.md",
     "虚拟试衣/视频简介.md",
     "深度学习/卷积神经网络（CNN）.md",
@@ -166,34 +185,16 @@
     "Generated/images",
     "Generated",
     "Generated/Bookmarks",
-    "材料生成/_index.md",
     "虚拟试衣/项目详细方案.md",
-    "材料生成/attachments/master-图片-2.webp",
-    "材料生成/attachments/master-图片-1.webp",
     "材料生成/attachments",
-    "材料生成",
     "专利证书.md",
     "材料成分生成.md",
-    "材料生成/attachments/master-图片-2.jpg",
-    "材料生成/attachments/master-图片-1.jpg",
-    "材料生成/新建文件夹",
     "未命名 2.canvas",
     "未命名 1.canvas",
     "未命名.canvas",
     "重识别/材料生成/专利证书.md",
-    "重识别/材料生成",
     "重识别/fastreid项目简介/背景知识介绍.md",
     "重识别/fastreid项目简介/fast-reid环境配置及入门.md",
-    "重识别/fastreid详细介绍/模型更改backbone.md",
-    "重识别/fastreid详细介绍/配置文件解读.md",
-    "重识别/fastreid详细介绍/模型结构解读.md",
-    "重识别/fastreid详细介绍/Aggregation&Head.md",
-    "重识别/fastreid详细介绍/attachments/hemt7.webp",
-    "重识别/fastreid详细介绍/attachments/gjsla.webp",
-    "重识别/fastreid详细介绍/attachments/bi8bt.webp",
-    "重识别/fastreid详细介绍/添加第三方模型.md",
-    "重识别/fastreid详细介绍/数据集和预训练模型.md",
-    "重识别/fastreid详细介绍/项目结构.md",
-    "重识别/fastreid详细介绍/fastreid使用.md"
+    "重识别/fastreid详细介绍/模型更改backbone.md"
   ]
 }

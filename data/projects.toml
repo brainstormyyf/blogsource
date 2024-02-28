@@ -1,8 +1,8 @@
 [tryon]
-weight = 1
+weight = 5
 title = "虚拟试衣"
 url = "虚拟试衣"
-description = "第十三届中国大学生服务外包创新创业大赛作品"
+description = "第十四届中国大学生服务外包创新创业大赛作品：基于SDAFN与PF-AFN的虚拟试衣系统"
 [tryon.icon]
 name = "rocket"
 color = "#DC3545"
@@ -10,7 +10,7 @@ color = "#DC3545"
 
 
 [Re-Identification]
-weight = 2
+weight = 1
 title = "行人/轮船/车辆重识别"
 url = "重识别"
 description = "参与课题组项目《多模态的轮船重识别》，毕设论文《基于视觉语言模型的行人重识别》"
@@ -18,7 +18,7 @@ description = "参与课题组项目《多模态的轮船重识别》，毕设�
 
 
 [Material_generation]
-weight = 3
+weight = 2
 title = "材料生成模型"
 url = "材料生成"
 description = "发明专利《基于GAN和VAE的材料成分生成方法及评价方法》"
@@ -26,33 +26,40 @@ description = "发明专利《基于GAN和VAE的材料成分生成方法及评�
 name = "circle-half"
 
 [search]
-weight = 4
+weight = 3
 title = "视频人像分割"
 url = "视频人像分割"
-description = "一个快速且精准的本地化视频人像分割客户端。"
+description = "第十三届中国大学生服务外包创新创业大赛全国三等奖。"
 [search.icon]
 name = "search"
 color = "#00008B"
 
 
 [classroom]
-weight = 4
+weight = 6
 title = "智慧课堂"
 url = "智慧课堂"
-description = "生产实习项目，中小学学生课堂行为分析系统"
+description = "生产实习项目：基于yolo、alphapose、dlib的中小学学生课堂行为分析系统"
 [classroom.icon]
-vendor = "simple-icons"
-name = "sass"
-color = "#C66394"
+name = "book-half"
+color = "#7952b3"
+
+[driver]
+weight = 4
+title = "智能安全驾驶监测系统"
+url = "安全驾驶"
+description = "论文著作《Driver State Monitoring System Based on Yolov5 and Dlib》"
+[driver.icon]
+name = "car-front"
 
 
-[more]
-weight = 100
-title = "敬请期待"
-# url = "更多"
-description = "更多内容静待更新"
-[more.icon]
-name = "boxes"
+# [more]
+# weight = 100
+# title = "敬请期待"
+# # url = "更多"
+# description = "更多内容静待更新"
+# [more.icon]
+# name = "boxes"
 
 # [color]
 # weight = 8
