@@ -36,7 +36,7 @@ color = "#E6492A"
 weight = 4
 title = "AI论文"
 url = "AI论文"
-description = "一些AI论文的精读笔记"
+description = "一些AI论文的阅读笔记"
 [AI.icon]
 name = "rocket"
 color = "#DC3545"
