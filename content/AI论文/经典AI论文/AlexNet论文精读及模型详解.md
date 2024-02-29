@@ -8,23 +8,22 @@ series:
   - AI论文
 authors:
   - YYF
-linkTitle: AlexNet论文精读
+linkTitle: AlexNet
 ---
+
 <!--more-->
+
 ## 一、论文总览
 
 该论文提出了一种基于深度卷积神经网络（CNN）的图像分类方法，并在ILSVRC-2010和ILSVRC-2012图像分类挑战赛中取得了新的记录。主要工作和贡献如下：
 
 1. 训练了当时最大的卷积神经网络，包含**5个卷积层和3个全连接层**，参数量达6000万个，在ILSVRC-2010测试集上取得了top-1错误率37.5%,top-5错误率17.0%,明显优于之前的方法。
-
 2. 提出了几个新的网络架构优化技巧，如**ReLU激活函数、数据增强、局部响应归一化（Local Response Normalization）、重叠池化(Overlapping Pooling)**等，这些技巧显著提升了网络的性能。
 
 3. **模型并行**（model parrallel）: 使用了两个GTX 580 3GB显卡并行训练，实现了高效的GPU卷积操作，显著减少了训练时间。
 
 4. 使用了**随机失活（dropout）** 等正则化方法来控制过拟合，并详细分析了其有效性。
-
 5. 在ILSVRC-2012比赛中使用该模型，取得了top-5错误率18.2%的成绩，显著优于第二名的16.4%。
-
 6. 获得了大量视觉知识，如不同层级的卷积核表示，高维特征向量的相似度计算等。
 
 总体而言，该论文通过构建当时最大的卷积神经网络并使用各种优化技巧，在ImageNet等大规模图像数据集上取得了新的state-of-the-art结果，对后续的计算机视觉研究产生了重大影响。
@@ -59,7 +58,7 @@ LRM层现在基本已不再使用，其作用现在普遍认为也比较小，�
 
 原图输入256 × 256，实际上进行了随机裁剪，实际大小为227 × 227。
 
-<span style="background:#fff88f">①卷积层C1</span>
+`<span style="background:#fff88f">`①卷积层C1
 
 C1的基本结构：卷积–>局部响应归一化(LRN)–>ReLU–>池化
 
@@ -68,7 +67,7 @@ C1的基本结构：卷积–>局部响应归一化(LRN)–>ReLU–>池化
 - 激活函数：采用ReLU激活函数。
 - 池化：3×3的池化核，padding = 0，stride = 2，池化后的FeatureMap为(55-3+0×2+2)/2=27, 即C1输出为27×27×96（若按照论文将数据分到两个GPU中处理，每组输出为27×27×48）。
 
-<span style="background:#fff88f">②卷积层C2</span>
+`<span style="background:#fff88f">`②卷积层C2
 
 C2的基本结构：卷积–>局部响应归一化(LRN)–>ReLU–>池化
 
@@ -77,21 +76,21 @@ C2的基本结构：卷积–>局部响应归一化(LRN)–>ReLU–>池化
 - 激活函数：使用ReLU激活函数。
 - 池化：3 × 3的池化核，padding = 0，stride = 2，池化后的FeatureMap为(27-3+0+2)/2=13, 即C2输出为13×13×256（若按论文方式分配到两个GPU，则每组输出为13×13×128）。
 
-<span style="background:#fff88f">③卷积层C3</span>
+`<span style="background:#fff88f">`③卷积层C3
 
 C3的基本结构为：卷积–>ReLU
 
 - 卷积：输入为13×13×256，使用384个3×3×256的卷积核，padding = 1，stride = 1。 FeatureMap为(13-3+1×2+1)/1 = 13，即13×13×384。
 - 激活函数：采用ReLU激活函数，C3输出为13×13×384（若按照论文将数据分配到两个GPU中处理，则每组输出为13×13×192）。
 
-<span style="background:#fff88f">④ 卷积层C4</span>
+`<span style="background:#fff88f">`④ 卷积层C4
 
 C4的基本结构为：卷积–>ReLU
 
 - 卷积：输入为13×13×384，使用384个3×3×384的卷积核，padding = 1，stride = 1。 FeatureMap为13×13×384。
 - 激活函数：采用ReLU激活函数，C4输出为13×13×384（若按论文方式分配到两个GPU，则每组输出为13×13×192）。
 
-<span style="background:#fff88f">⑤ 卷积层C5</span>
+`<span style="background:#fff88f">`⑤ 卷积层C5
 
 C5的基本结构为：卷积–>ReLU–>池化
 
@@ -99,7 +98,7 @@ C5的基本结构为：卷积–>ReLU–>池化
 - 激活函数：采用ReLU激活函数。
 - 池化：池化核大小为3 × 3，padding = 0，stride = 2，池化后的FeatureMap为(13-3+0×2+2)/2=6, C5输出为6×6×256（若按照论文分到两个GPU中处理，每组输出为6×6×128）。
 
-<span style="background:#fff88f">⑥全连接层FC6</span>
+`<span style="background:#fff88f">`⑥全连接层FC6
 
 FC6的基本结构为：卷积（全连接实现）–>ReLU–>Dropout
 
@@ -107,7 +106,7 @@ FC6的基本结构为：卷积（全连接实现）–>ReLU–>Dropout
 - 激活函数：采用ReLU激活函数。
 - Dropout：在全连接层中应用Dropout技术，随机丢弃一部分神经元节点，以防止过拟合，最终FC6输出为1×1×4096。
 
-<span style="background:#fff88f">⑦全连接层FC7</span>
+`<span style="background:#fff88f">`⑦全连接层FC7
 
 FC7的基本结构为：全连接–>ReLU–>Dropout
 
@@ -115,7 +114,7 @@ FC7的基本结构为：全连接–>ReLU–>Dropout
 - 激活函数：采用ReLU激活函数。
 - Dropout：同样应用Dropout防止过拟合，FC7输出为1×1×4096。
 
-<span style="background:#fff88f">⑧ 全连接层FC8</span>
+`<span style="background:#fff88f">`⑧ 全连接层FC8
 
 FC8的基本结构为：全连接–>softmax
 
@@ -124,18 +123,25 @@ FC8的基本结构为：全连接–>softmax
 
 ## 四、ReLU激活函数
 
-$$ReLU(x)=max(0,x)$$
+$$
+ReLU(x)=max(0,x)
+$$
 
 ReLU函数的导数：
+
 ```katex
 \frac{dReLU(x)}{dx} = \begin{cases} 1 & \text{if } x > 0 \ 0 & \text{if } x \leq 0 \end{cases}
 ```
 
-$${\sigma(x)} = \frac{1}{1 + e^{-x}}$$
+$$
+{\sigma(x)} = \frac{1}{1 + e^{-x}}
+$$
 
 Sigmoid函数的导数：
 
-$$\frac{d\sigma(x)}{dx} = \sigma(x) * (1 - \sigma(x)) = \frac{e^{-x}}{(1 + e^{-x})^2}$$
+$$
+\frac{d\sigma(x)}{dx} = \sigma(x) * (1 - \sigma(x)) = \frac{e^{-x}}{(1 + e^{-x})^2}
+$$
 
 ![](https://pic2.zhimg.com/80/v2-ca071a601cdb4bcd05b90b231e1c5135_1440w.webp?width=500#center)
 
@@ -212,4 +218,3 @@ class AlexNet(nn.Module):
         output = self.fc(feature.view(img.shape[0], -1))
         return output
 ```
-

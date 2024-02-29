@@ -6,7 +6,7 @@ menu:
     parent: column
     weight: 4
     params:
-      description: 经典AI论文精读笔记
+      description: 深度学习论文汇报/笔记
       icon:
         vendor: bs
         name: rocket

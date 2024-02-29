@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a1f393d67a88496b",
+        "id": "3c15face8696d453",
         "type": "tabs",
         "children": [
           {
-            "id": "69f74225b57292c9",
+            "id": "7c22e852ac84241b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "虚拟试衣/_index.md",
+                "file": "AI论文/可解释性神经网络/_index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "虚拟试衣/_index.md",
+                "file": "AI论文/可解释性神经网络/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "虚拟试衣/_index.md",
+                "file": "AI论文/可解释性神经网络/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "虚拟试衣/_index.md"
+                "file": "AI论文/可解释性神经网络/_index.md"
               }
             }
           }
@@ -145,8 +145,42 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "69f74225b57292c9",
+  "active": "faaa1cdb9195782d",
   "lastOpenFiles": [
+    "AI论文/虚拟试衣/_index.md",
+    "AI论文/可解释性神经网络/_index.md",
+    "AI论文/虚拟试衣",
+    "AI论文/重识别论文阅读/_index.md",
+    "AI论文/经典AI论文/_index.md",
+    "AI论文/可解释性神经网络/Interpretable part-whole hierarchies and conceptual-semantic relationships in neural networks.md",
+    "AI论文/可解释性神经网络/attachments/幻灯片22.webp",
+    "AI论文/可解释性神经网络/attachments/幻灯片21.webp",
+    "AI论文/可解释性神经网络/attachments/幻灯片20.webp",
+    "AI论文/可解释性神经网络/attachments/幻灯片19.webp",
+    "AI论文/可解释性神经网络/attachments/幻灯片18.webp",
+    "AI论文/可解释性神经网络/attachments/幻灯片17.webp",
+    "AI论文/可解释性神经网络/attachments/幻灯片16.webp",
+    "AI论文/可解释性神经网络/attachments/幻灯片15.webp",
+    "AI论文/可解释性神经网络/attachments/幻灯片14.webp",
+    "AI论文/可解释性神经网络/attachments/幻灯片13.webp",
+    "AI论文/可解释性神经网络/attachments",
+    "重识别/重识别论文阅读/Robust Person Re-identification with Neighbor Transformer.md",
+    "AI论文/可解释性神经网络",
+    "AI论文/经典AI论文/AlexNet论文精读及模型详解.md",
+    "AI论文/经典AI论文",
+    "AI论文/新建文件夹",
+    "AI论文/重识别论文阅读/Transformer-based Object Re-Identification.md",
+    "AI论文/重识别论文阅读/Robust Person Re-identification with Neighbor Transformer.md",
+    "AI论文/重识别论文阅读/Feature-Level Modality Compensation for Visible-Infrared Person Re-Identification.md",
+    "AI论文/重识别论文阅读/FastReID A Pytorch Toolbox for General Instance Re-identification.md",
+    "AI论文/重识别论文阅读/attachments",
+    "AI论文/重识别论文阅读",
+    "重识别/重识别论文阅读/FastReID A Pytorch Toolbox for General Instance Re-identification.md",
+    "重识别/重识别论文阅读/Feature-Level Modality Compensation for Visible-Infrared Person Re-Identification.md",
+    "重识别/重识别论文阅读/Transformer-based Object Re-Identification.md",
+    "重识别/重识别论文阅读/attachments",
+    "重识别/重识别论文阅读/_index.md",
+    "虚拟试衣/_index.md",
     "智慧课堂/_index.md",
     "安全驾驶/_index.md",
     "视频人像分割/_index.md",
@@ -154,47 +188,13 @@
     "重识别/_index.md",
     "安全驾驶/论文接收证书.md",
     "安全驾驶/论文内容.md",
-    "安全驾驶/attachments/Pasted image 20240229012217.webp",
-    "安全驾驶/attachments/Pasted image 20240229012217.png",
     "安全驾驶/attachments",
     "视频人像分割/项目详细方案.md",
     "安全驾驶",
     "视频人像分割/获奖证书.md",
-    "视频人像分割/attachments/20c69e7e455d1118f694afc5b1d67aa.jpg",
-    "视频人像分割/attachments/20c69e7e455d1118f694afc5b1d67aa.webp",
-    "视频人像分割/attachments/4a0e2598ae1640c4cc82f3fae899b39.webp",
-    "视频人像分割/attachments/4d1a9545526d754ed3498013d0eabb9.jpg",
-    "视频人像分割/attachments/4a0e2598ae1640c4cc82f3fae899b39.jpg",
-    "视频人像分割/attachments",
     "智慧课堂/中小学学生行为跟踪与分析系统界面展示.md",
-    "智慧课堂/中小学学生课堂行为跟踪与分析系统需求说明书.md",
-    "智慧课堂/项目详细方案.md",
-    "智慧课堂/attachments/幻灯片20.png",
-    "智慧课堂/attachments/幻灯片13.png",
-    "智慧课堂/attachments/幻灯片6.png",
-    "智慧课堂/attachments",
-    "智慧课堂/系统模拟视频.md",
-    "虚拟试衣/视频简介.md",
-    "深度学习/卷积神经网络（CNN）.md",
-    "深度学习/第五章_卷积神经网络(CNN).md",
-    "材料生成/ConALAE 代码解读代码解读.md",
-    "材料生成/专利证书.md",
-    "408/计算机组成原理/as.py",
-    "_index.md",
-    "ConALAE代码解读.pdf",
-    "Generated/images",
-    "Generated",
-    "Generated/Bookmarks",
-    "虚拟试衣/项目详细方案.md",
-    "材料生成/attachments",
-    "专利证书.md",
-    "材料成分生成.md",
     "未命名 2.canvas",
     "未命名 1.canvas",
-    "未命名.canvas",
-    "重识别/材料生成/专利证书.md",
-    "重识别/fastreid项目简介/背景知识介绍.md",
-    "重识别/fastreid项目简介/fast-reid环境配置及入门.md",
-    "重识别/fastreid详细介绍/模型更改backbone.md"
+    "未命名.canvas"
   ]
 }
