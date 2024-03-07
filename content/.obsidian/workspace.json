@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法笔记/c++语法/循环结构.md",
+                "file": "算法笔记/入门经典/_index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ab9c697820363fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法笔记/入门经典/简单模拟.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法笔记/c++语法/循环结构.md",
+                "file": "算法笔记/入门经典/简单模拟.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法笔记/c++语法/循环结构.md",
+                "file": "算法笔记/入门经典/简单模拟.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法笔记/c++语法/循环结构.md"
+                "file": "算法笔记/入门经典/简单模拟.md"
               }
             }
           }
@@ -145,17 +158,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7c22e852ac84241b",
+  "active": "5ab9c697820363fc",
   "lastOpenFiles": [
+    "算法笔记/c++语法/循环结构.md",
+    "算法笔记/入门经典/简单模拟.md",
+    "算法笔记/c++语法/_index.md",
+    "算法笔记/入门经典/_index.md",
+    "算法笔记/入门经典",
+    "算法笔记/_index.md",
     "算法笔记/c++语法/array与vector.md",
     "算法笔记/c++语法/整数与字符串的转换.md",
     "算法笔记/c++语法/sstream的含义和用法.md",
     "算法笔记/c++语法/字符串string.md",
-    "算法笔记/c++语法/循环结构.md",
     "视频人像分割/项目详细方案.md",
-    "算法笔记/c++语法/_index.md",
     "算法笔记/数组/_index.md",
-    "算法笔记/_index.md",
     "AI论文/重识别论文阅读/_index.md",
     "AI论文/可解释性神经网络/_index.md",
     "AI论文/经典AI论文/_index.md",
@@ -189,10 +205,7 @@
     "AI论文/重识别论文阅读",
     "重识别/重识别论文阅读/FastReID A Pytorch Toolbox for General Instance Re-identification.md",
     "重识别/重识别论文阅读/Feature-Level Modality Compensation for Visible-Infrared Person Re-Identification.md",
-    "重识别/重识别论文阅读/Transformer-based Object Re-Identification.md",
     "重识别/重识别论文阅读/attachments",
-    "重识别/重识别论文阅读/_index.md",
-    "安全驾驶/attachments",
     "未命名 2.canvas",
     "未命名 1.canvas",
     "未命名.canvas"
