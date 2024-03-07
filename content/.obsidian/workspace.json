@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI论文/可解释性神经网络/_index.md",
+                "file": "算法笔记/c++语法/循环结构.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI论文/可解释性神经网络/_index.md",
+                "file": "算法笔记/c++语法/循环结构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI论文/可解释性神经网络/_index.md",
+                "file": "算法笔记/c++语法/循环结构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI论文/可解释性神经网络/_index.md"
+                "file": "算法笔记/c++语法/循环结构.md"
               }
             }
           }
@@ -145,13 +145,25 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "faaa1cdb9195782d",
+  "active": "7c22e852ac84241b",
   "lastOpenFiles": [
-    "AI论文/虚拟试衣/_index.md",
-    "AI论文/可解释性神经网络/_index.md",
-    "AI论文/虚拟试衣",
+    "算法笔记/c++语法/array与vector.md",
+    "算法笔记/c++语法/整数与字符串的转换.md",
+    "算法笔记/c++语法/sstream的含义和用法.md",
+    "算法笔记/c++语法/字符串string.md",
+    "算法笔记/c++语法/循环结构.md",
+    "视频人像分割/项目详细方案.md",
+    "算法笔记/c++语法/_index.md",
+    "算法笔记/数组/_index.md",
+    "算法笔记/_index.md",
     "AI论文/重识别论文阅读/_index.md",
+    "AI论文/可解释性神经网络/_index.md",
     "AI论文/经典AI论文/_index.md",
+    "408/计算机组成原理/第三章：存储器.md",
+    "408/计算机组成原理/第四章：指令系统.md",
+    "算法笔记/c++语法",
+    "AI论文/虚拟试衣/_index.md",
+    "AI论文/虚拟试衣",
     "AI论文/可解释性神经网络/Interpretable part-whole hierarchies and conceptual-semantic relationships in neural networks.md",
     "AI论文/可解释性神经网络/attachments/幻灯片22.webp",
     "AI论文/可解释性神经网络/attachments/幻灯片21.webp",
@@ -180,19 +192,7 @@
     "重识别/重识别论文阅读/Transformer-based Object Re-Identification.md",
     "重识别/重识别论文阅读/attachments",
     "重识别/重识别论文阅读/_index.md",
-    "虚拟试衣/_index.md",
-    "智慧课堂/_index.md",
-    "安全驾驶/_index.md",
-    "视频人像分割/_index.md",
-    "材料生成/_index.md",
-    "重识别/_index.md",
-    "安全驾驶/论文接收证书.md",
-    "安全驾驶/论文内容.md",
     "安全驾驶/attachments",
-    "视频人像分割/项目详细方案.md",
-    "安全驾驶",
-    "视频人像分割/获奖证书.md",
-    "智慧课堂/中小学学生行为跟踪与分析系统界面展示.md",
     "未命名 2.canvas",
     "未命名 1.canvas",
     "未命名.canvas"
