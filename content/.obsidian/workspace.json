@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法笔记/入门经典/简单模拟.md",
+                "file": "简介.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7aefcb730016638d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "408/_index.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法笔记/入门经典/简单模拟.md",
+                "file": "408/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法笔记/入门经典/简单模拟.md",
+                "file": "408/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法笔记/入门经典/简单模拟.md"
+                "file": "408/_index.md"
               }
             }
           }
@@ -158,29 +170,37 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5ab9c697820363fc",
+  "active": "7aefcb730016638d",
   "lastOpenFiles": [
-    "算法笔记/c++语法/循环结构.md",
-    "算法笔记/入门经典/简单模拟.md",
-    "算法笔记/c++语法/_index.md",
-    "算法笔记/入门经典/_index.md",
-    "算法笔记/入门经典",
-    "算法笔记/_index.md",
-    "算法笔记/c++语法/array与vector.md",
-    "算法笔记/c++语法/整数与字符串的转换.md",
-    "算法笔记/c++语法/sstream的含义和用法.md",
-    "算法笔记/c++语法/字符串string.md",
-    "视频人像分割/项目详细方案.md",
-    "算法笔记/数组/_index.md",
+    "408/操作系统/_index.md",
+    "408/计算机组成原理/_index.md",
+    "hugo博客/_index.md",
     "AI论文/重识别论文阅读/_index.md",
     "AI论文/可解释性神经网络/_index.md",
     "AI论文/经典AI论文/_index.md",
-    "408/计算机组成原理/第三章：存储器.md",
-    "408/计算机组成原理/第四章：指令系统.md",
+    "安全驾驶/_index.md",
+    "材料生成/_index.md",
+    "开发工具/玩机技巧/_index.md",
+    "开发工具/git/_index.md",
+    "开发工具/python/_index.md",
+    "深度学习/_index.md",
+    "算法笔记/c++语法/_index.md",
+    "算法笔记/入门经典/_index.md",
+    "智慧课堂/_index.md",
+    "重识别/fastreid项目简介/_index.md",
+    "重识别/_index.md",
+    "重识别/fastreid详细介绍/_index.md",
+    "重识别/重识别论文阅读/_index.md",
+    "虚拟试衣/成果网站.md",
+    "简介.md",
+    "开发工具/玩机技巧/油猴脚本.md",
+    "算法笔记/入门经典/简单模拟.md",
+    "算法笔记/c++语法/循环结构.md",
+    "算法笔记/入门经典",
+    "算法笔记/_index.md",
+    "算法笔记/c++语法/array与vector.md",
     "算法笔记/c++语法",
-    "AI论文/虚拟试衣/_index.md",
     "AI论文/虚拟试衣",
-    "AI论文/可解释性神经网络/Interpretable part-whole hierarchies and conceptual-semantic relationships in neural networks.md",
     "AI论文/可解释性神经网络/attachments/幻灯片22.webp",
     "AI论文/可解释性神经网络/attachments/幻灯片21.webp",
     "AI论文/可解释性神经网络/attachments/幻灯片20.webp",
@@ -192,19 +212,11 @@
     "AI论文/可解释性神经网络/attachments/幻灯片14.webp",
     "AI论文/可解释性神经网络/attachments/幻灯片13.webp",
     "AI论文/可解释性神经网络/attachments",
-    "重识别/重识别论文阅读/Robust Person Re-identification with Neighbor Transformer.md",
     "AI论文/可解释性神经网络",
-    "AI论文/经典AI论文/AlexNet论文精读及模型详解.md",
     "AI论文/经典AI论文",
     "AI论文/新建文件夹",
-    "AI论文/重识别论文阅读/Transformer-based Object Re-Identification.md",
-    "AI论文/重识别论文阅读/Robust Person Re-identification with Neighbor Transformer.md",
-    "AI论文/重识别论文阅读/Feature-Level Modality Compensation for Visible-Infrared Person Re-Identification.md",
-    "AI论文/重识别论文阅读/FastReID A Pytorch Toolbox for General Instance Re-identification.md",
     "AI论文/重识别论文阅读/attachments",
     "AI论文/重识别论文阅读",
-    "重识别/重识别论文阅读/FastReID A Pytorch Toolbox for General Instance Re-identification.md",
-    "重识别/重识别论文阅读/Feature-Level Modality Compensation for Visible-Infrared Person Re-Identification.md",
     "重识别/重识别论文阅读/attachments",
     "未命名 2.canvas",
     "未命名 1.canvas",
