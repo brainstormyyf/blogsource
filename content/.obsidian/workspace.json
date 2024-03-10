@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法笔记/入门经典/进制转换类问题.md",
+                "file": "虚拟试衣/_index.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法笔记/入门经典/进制转换类问题.md",
+                "file": "虚拟试衣/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法笔记/入门经典/进制转换类问题.md",
+                "file": "虚拟试衣/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法笔记/入门经典/进制转换类问题.md"
+                "file": "虚拟试衣/_index.md"
               }
             }
           }
@@ -196,10 +196,10 @@
   },
   "active": "35aadf46d9587591",
   "lastOpenFiles": [
+    "算法笔记/入门经典/进制转换类问题.md",
     "算法笔记/入门经典/简单模拟.md",
     "算法笔记/入门经典/字符串类问题.md",
     "算法笔记/入门经典/日期类问题.md",
-    "算法笔记/入门经典/进制转换类问题.md",
     "算法笔记/入门经典/排版类问题.md",
     "算法笔记/入门经典/_index.md",
     "简介.md",
