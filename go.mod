@@ -70,10 +70,12 @@ require (
 	github.com/hbstack/syntax-highlighting v0.2.0 // indirect
 	github.com/hbstack/syntax-highlighting/styles/abap v0.1.1 // indirect
 	github.com/hbstack/syntax-highlighting/styles/arduino v0.1.1 // indirect
+	github.com/hbstack/syntax-highlighting/styles/dracula v0.1.1 // indirect
 	github.com/hbstack/syntax-highlighting/styles/emacs v0.1.1 // indirect
 	github.com/hbstack/syntax-highlighting/styles/github v0.1.1 // indirect
 	github.com/hbstack/syntax-highlighting/styles/github-dark v0.1.1 // indirect
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.1 // indirect
+	github.com/hbstack/syntax-highlighting/styles/perldoc v0.1.1 // indirect
 	github.com/hbstack/syntax-highlighting/styles/solarized-light v0.1.1 // indirect
 	github.com/hbstack/syntax-highlighting/styles/tango v0.1.1 // indirect
 	github.com/hbstack/theme-cards v0.1.1 // indirect

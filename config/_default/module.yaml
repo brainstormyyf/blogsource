@@ -23,7 +23,8 @@ imports:
   - path: github.com/hbstack/gallery/modules/breadcrumb
 
   # syntax highlighting, see https://hbstack.dev/en/docs/modules/syntax-highlighting/.
-  - path: github.com/hbstack/syntax-highlighting/styles/solarized-light
+  # - path: github.com/hbstack/syntax-highlighting/styles/solarized-light
+  - path: github.com/hbstack/syntax-highlighting/styles/perldoc
 
   # icons modules
   - path: github.com/hugomods/icons/vendors/font-awesome

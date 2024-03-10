@@ -30,11 +30,15 @@ $hb-module-prefix: "hb-";
   max-height: 5000px;
 }
 
-//设置代码块最大高度
+// 设置代码块最大高度
 .highlight pre {
   max-height: 5000px;
   overflow: auto;
   padding: 1rem 0.5rem;
+}
+
+pre code {
+  color: #212529;
 }
 
 .navbar-brand {

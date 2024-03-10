@@ -142,6 +142,8 @@ github.com/hbstack/syntax-highlighting/styles/abap v0.1.1 h1:i3GjVOWlgLz/K90AO4a
 github.com/hbstack/syntax-highlighting/styles/abap v0.1.1/go.mod h1:ABbXn6Oxfm33Www2/vIuCz0ZGh3FyJ3XuhtU1vYxqZA=
 github.com/hbstack/syntax-highlighting/styles/arduino v0.1.1 h1:ppsK3JqfKp4DnLccwVWf7Fofm3iDLHh7R26Pgd6pd/w=
 github.com/hbstack/syntax-highlighting/styles/arduino v0.1.1/go.mod h1:+q4rE61Ze5i/P8h1+jEu7d5PvK5GYzgAxPQffI/Qnfc=
+github.com/hbstack/syntax-highlighting/styles/dracula v0.1.1 h1:WGvZhYKjmCgTb/iQwlNslbracxf6lhmGU1fH/5T53Ag=
+github.com/hbstack/syntax-highlighting/styles/dracula v0.1.1/go.mod h1:T9T431doOQVJ+vg2YA6hzYGqWhiH3rGUUC3eisOJM/o=
 github.com/hbstack/syntax-highlighting/styles/emacs v0.1.1 h1:8mrJTzcEef1CTcUDqryQFyibzUBsEGRPtypFCVDpeCQ=
 github.com/hbstack/syntax-highlighting/styles/emacs v0.1.1/go.mod h1:V4VZi/Zs2oKio6htuk9RBmTlWfYHlLv6IH3BfRFlTHs=
 github.com/hbstack/syntax-highlighting/styles/github v0.1.1 h1:vHB1o0MnqWK9K6BFma7ZXZiLO4kuw9ZYmHHprr7O+dI=
@@ -150,6 +152,8 @@ github.com/hbstack/syntax-highlighting/styles/github-dark v0.1.1 h1:2epjvfTmU0fE
 github.com/hbstack/syntax-highlighting/styles/github-dark v0.1.1/go.mod h1:Ho2j01IBLlAuDygUcVsOXUwPJ/Q4aL769sWa/pri1Mc=
 github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.1 h1:IzJlnkHGS8XhibNjUFvyV3YE7rc7WMsAhdxWZTbORI4=
 github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.1/go.mod h1:ar5ZFplNyVZCVG6rvo69co1hNZwptxtrDz3zproGLPg=
+github.com/hbstack/syntax-highlighting/styles/perldoc v0.1.1 h1:kL6sMsIoIqAzGqs5n+C1YzWdbA0dzBHQOpzcu8ewpgo=
+github.com/hbstack/syntax-highlighting/styles/perldoc v0.1.1/go.mod h1:I4pbyfLF5OBjyC3My4Xu9OiYH+5wTHVkssxBau9lUA4=
 github.com/hbstack/syntax-highlighting/styles/solarized-light v0.1.1 h1:mZWDu8xhdd3KfXbQH8KWdN+csmmJV2gwDIBxkBKzEig=
 github.com/hbstack/syntax-highlighting/styles/solarized-light v0.1.1/go.mod h1:DWx8/OdPAjgq6UwUTyBShgNcH9Yr6QaA6OOUObyMrqw=
 github.com/hbstack/syntax-highlighting/styles/tango v0.1.1 h1:5IT8dDWO8U9tDzo9v8TiGT89UaFm/51u4oyOgJm5z+g=

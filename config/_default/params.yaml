@@ -146,7 +146,7 @@ hb:
 #     short_name: "HB"
 
 code_block_panel:
-  max_lines: 15
+  max_lines: 150
   wrap: false
 
 seo:
