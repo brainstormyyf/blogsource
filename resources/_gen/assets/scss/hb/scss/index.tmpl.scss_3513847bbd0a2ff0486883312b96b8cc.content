@@ -11091,6 +11091,9 @@ html {
   overflow: auto;
   padding: 1rem 0.5rem; }
 
+pre code {
+  color: #212529; }
+
 .navbar-brand {
   font-family: Agbalumo, serif; }
 

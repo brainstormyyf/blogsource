@@ -24,6 +24,7 @@ imports:
 
   # syntax highlighting, see https://hbstack.dev/en/docs/modules/syntax-highlighting/.
   # - path: github.com/hbstack/syntax-highlighting/styles/github
+  # - path: github.com/hbstack/syntax-highlighting/styles/solarized-light
   - path: github.com/hbstack/syntax-highlighting/styles/perldoc
 
   # icons modules
